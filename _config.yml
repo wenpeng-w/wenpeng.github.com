@@ -23,28 +23,35 @@
 
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Yiwen 的个人空间
+title: Yiwen
+SEOTitle: Yiwen | 一文博客
 email: 449202631@qq.com
-description: yiwen blog
+keywords: 一文博客，前端工程师，womenl.cn
+description: Yiwen 的个人博客，研究前端技术，一个奔跑在前端开发路上的程（cai）序（niao）员。
 # this means to ignore newlines until "baseurl:"
 #  Write an awesome description for your new site here. You can edit this
 # line in _config.yml. It will appear in your document head meta (for
 # Google search results) and in your feed.xml site description.
-url: "womenl.cn"
-baseurl: "/wenpeng-w.github.io"
-# the subpath of your site, e.g. /blog
 
+baseurl: ""
+
+# the subpath of your site, e.g. /blog
+url: "http://127.0.0.1:4000"
 # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
-github_username:  wenpeng-w
-
+github_username: wenpeng-w
 
 # Build settings
-permalink: pretty
+paginate: 2
+permalink: /:year/:month/:day/:title/
 markdown: kramdown
 plugins:
   - jekyll-feed
+  - jekyll-paginate
 
+__CSS__: "/static/css"
+__JS__: "/static/js"
+__IMG__: "/static/images"
 # Exclude from processing.
 
 # The following items will not be processed, by default. Create a custom list
