@@ -33,8 +33,6 @@ description: Yiwen 的个人博客，研究前端技术，一个奔跑在前端�
 # line in _config.yml. It will appear in your document head meta (for
 # Google search results) and in your feed.xml site description.
 
-baseurl: ""
-
 # the subpath of your site, e.g. /blog
 url: "http://127.0.0.1:4000"
 # the base hostname & protocol for your site, e.g. http://example.com
@@ -49,9 +47,17 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
 
+# Static resource path
 __CSS__: "/static/css"
 __JS__: "/static/js"
 __IMG__: "/static/images"
+
+# page navigation
+navs:
+  - {name: 首页, url: "/"}
+  - {name: 文章, url: "/archives"}
+  - {name: 标签, url: "/tags"}
+  - {name: 关于我, url: "/about"}
 # Exclude from processing.
 
 # The following items will not be processed, by default. Create a custom list
