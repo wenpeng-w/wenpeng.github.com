@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8af341b-33f9-4ac8-a0db-ff21f9eb2794" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/_posts/2018-01-26-git-command-line-document.markdown" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/yiwen" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-01-23-welcome-to-jekyll3.markdown" afterPath="$PROJECT_DIR$/_posts/2018-01-23-welcome-to-jekyll3.markdown" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,7 +21,7 @@
       <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/about.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
+            <state relative-caret-position="0">
               <caret line="2" column="14" lean-forward="false" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
               <folding />
             </state>
@@ -70,9 +71,22 @@
       <file leaf-file-name="head.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_includes/head.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="8" column="39" lean-forward="false" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+            <state relative-caret-position="317">
+              <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2018-01-26-git-command-line-document.markdown" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2018-01-26-git-command-line-document.markdown">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="208">
+                <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -131,13 +145,14 @@
         <option value="$PROJECT_DIR$/tags.html" />
         <option value="$PROJECT_DIR$/archives.html" />
         <option value="$PROJECT_DIR$/static/css/pygments.css" />
-        <option value="$PROJECT_DIR$/_posts/2018-01-23-welcome-to-jekyll3.markdown" />
         <option value="$PROJECT_DIR$/_includes/header.html" />
         <option value="$PROJECT_DIR$/_posts/2018-01-26-see-the-first-snow-in-Shanghai.markdown" />
         <option value="$PROJECT_DIR$/less/main.less" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/_includes/head.html" />
+        <option value="$PROJECT_DIR$/_posts/2018-01-26-git-command-line-document.markdown" />
+        <option value="$PROJECT_DIR$/_posts/2018-01-23-welcome-to-jekyll3.markdown" />
       </list>
     </option>
   </component>
@@ -176,6 +191,11 @@
             <path>
               <item name="yiwen" type="b2602c69:ProjectViewProjectNode" />
               <item name="yiwen" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yiwen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yiwen" type="462c0819:PsiDirectoryNode" />
+              <item name="_posts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -224,17 +244,18 @@
       <option name="presentableId" value="Default" />
       <updated>1516712818664</updated>
       <workItem from="1516712820860" duration="63579000" />
-      <workItem from="1516962978490" duration="287000" />
+      <workItem from="1516962978490" duration="1464000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63866000" />
+    <option name="totallyTimeSpent" value="65043000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21205357" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21205357" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -422,7 +443,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
+        <state relative-caret-position="0">
           <caret line="2" column="14" lean-forward="false" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
           <folding />
         </state>
@@ -483,13 +504,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="52">
           <caret line="2" column="30" lean-forward="false" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-01-23-welcome-to-jekyll3.markdown">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -540,10 +555,60 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-01-26-git-command-line-document.markdown">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="208">
+            <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-01-23-welcome-to-jekyll3.markdown">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <marker date="1516964406187" expanded="true" signature="188:230" ph="{&quot;template&quot;: '##a'...}" />
+            <marker date="1516964406187" expanded="true" signature="322:349" ph="{...}" />
+            <marker date="1516964406187" expanded="true" signature="1842:1933" ph="{...}" />
+            <marker date="1516964406187" expanded="true" signature="2792:2825" ph="//..." />
+            <marker date="1516964406187" expanded="true" signature="3393:3408" ph="//..." />
+            <marker date="1516964406187" expanded="true" signature="3472:3686" ph="[...]" />
+            <marker date="1516964406187" expanded="true" signature="3516:3685" ph="{&quot;path&quot;: '/user'...}" />
+            <marker date="1516964406187" expanded="true" signature="3582:3679" ph="[...]" />
+            <marker date="1516964406187" expanded="true" signature="3802:3816" ph="{&quot;routes&quot;: routes...}" />
+            <marker date="1516964406187" expanded="true" signature="3841:3871" ph="{&quot;el&quot;: 'body'...}" />
+          </folding>
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="1249">
+            <caret line="101" column="20" lean-forward="true" selection-start-line="101" selection-start-column="20" selection-end-line="101" selection-end-column="20" />
+            <folding>
+              <marker date="1516964406187" expanded="true" signature="188:230" ph="{&quot;template&quot;: '##a'...}" />
+              <marker date="1516964406187" expanded="true" signature="322:349" ph="{...}" />
+              <marker date="1516964406187" expanded="true" signature="1842:1933" ph="{...}" />
+              <marker date="1516964406187" expanded="true" signature="2792:2825" ph="//..." />
+              <marker date="1516964406187" expanded="true" signature="3393:3408" ph="//..." />
+              <marker date="1516964406187" expanded="true" signature="3472:3686" ph="[...]" />
+              <marker date="1516964406187" expanded="true" signature="3516:3685" ph="{&quot;path&quot;: '/user'...}" />
+              <marker date="1516964406187" expanded="true" signature="3582:3679" ph="[...]" />
+              <marker date="1516964406187" expanded="true" signature="3802:3816" ph="{&quot;routes&quot;: routes...}" />
+              <marker date="1516964406187" expanded="true" signature="3841:3871" ph="{&quot;el&quot;: 'body'...}" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/head.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="8" column="39" lean-forward="false" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+        <state relative-caret-position="317">
+          <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
           <folding />
         </state>
       </provider>

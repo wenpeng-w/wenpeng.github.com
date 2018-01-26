@@ -46,26 +46,26 @@ author: Yiwen
     - beforeDestroy ---> 销毁之前
     - destroyed ---------> 销毁
 ##### 4.循环
-    1.默认就可以添加重复数
 
-    2.去掉一些隐式变量： $index、$key
+- 1.默认就可以添加重复数
 
-    ```js
+- 2.去掉一些隐式变量： $index、$key
+
+```js
     // 第一个参数为 val，第二个参数为 index
     <li v-for="(val, index) in values" :key="index">
         {{val}} {{index}}
     </li>
-    ```
-    ```js
+```
+```js
     // 1.0 第一个参数为 index，第二个参数为 val
     <li v-for="(val, index) in values" :track-by="index">
         {{val}} {{index}}
     </li>
-    ```
+```
 ##### 5.自定义键盘指令
 
-
-    ```js
+```js
     // vue 1.0
     Vue.directive('on').keyCode.enter = 13;
     <input type="text" @keyup.enter="change">
@@ -73,15 +73,15 @@ author: Yiwen
     // vue 2.0
     Vue.config.keyCodes.ctrl = 17;
     <input type="text" @keyup.ctrl="change">
-    ```
+```
 ##### 6.过滤器
-    lodash 工具库
+-- lodash 工具库
 
-    官网：https://lodash.com/
+-- 官网：https://lodash.com/
 
-    中文文档：http://lodashjs.com/docs/#_chunkarray-size1
+-- 中文文档：http://lodashjs.com/docs/#_chunkarray-size1
 
-    ```js
+```js
     // vue 2.0 内置过滤器全部删除
 
     {msg | currency}  // 货币转换
@@ -89,11 +89,10 @@ author: Yiwen
     limitBy 2 4     // 限制数组元素的个数 第一个参数是限制个数 2，第二个参数是位置 4
     filterBy 'w'    // 过滤显示的内容 'w'
     ...
-
-    ```
+```
 ###### 6.1 自定义过滤器
 
-    ```js
+```js
     Vue.filter('toDou',function(input, a, b){
         return input < 10 ? '0' + input : '' + input
         // consloe.log(input);
@@ -102,11 +101,11 @@ author: Yiwen
     // 过滤器传参发生变化
     {msg | toDou '3' '1'}     // vue 1.0
     {msg | toDou('3','1')}    // vue 2.0
-    ```
+```
 ##### 7.动画
-    vue 1.0 transition 是属性 添加到元素上
+-- vue 1.0 transition 是属性 添加到元素上
 
-    ```js
+```js
     // html
     <p targsition="fade"></p>
 
@@ -114,7 +113,7 @@ author: Yiwen
     .fade-transition{}
     .fade-enter{}   // 进入动画
     .fade-leave{}   // 离开动画
-    ```
+```
 
 vue 2.0 transition 是组件 <transition></transition>
 ```js
