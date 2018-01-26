@@ -5,24 +5,200 @@ date:   2018-01-23 20:35:23 +0800
 categories: jekyll update
 author: 一文
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+##### 1.组件模板
+必须有一个根元素，包住所有的元素
+##### 2.组件定义
+    var A = { // vue2.0 定义组件方式
+      template:'#a',
+      ... 
+    };
+    
+    // Vue.component('my-a',A);
+    new Vue({
+      ...
+      components:{
+        'my-a': A
+      }
+    });
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+##### 3.生命周期
+vue2.0之前：
+- init -----------------> 组件实例刚被创建
+- created -----------> 实例已经创建，已经有属性，但是DOM 未生成
+- beforeCompile --> 模板编译之前
+- compiled ---------> 模板已经编译
+- ready -------------> 渲染 √
+- beforeDestroy --> 销毁之前
+- destroyed --------> 销毁
 
-Jekyll also offers powerful support for code snippets:
+vue2.0：
+- beforeCreate -----> 组件实例刚被创建，没有属性
+- created ------------> 实例已经创建，已经有属性，但是DOM 未生成
+- beforeMount -----> 模板编译之前
+- mounted ----------> 模板编译完成，代替之前的ready
+- beforeUpdate ----> 组件更新之前 
+- update ------------> 组件更新完成
+- beforeDestroy ---> 销毁之前
+- destroyed ---------> 销毁
+##### 4.循环
+1.默认就可以添加重复数
 
-{% highlight ruby %}
-def show
-  @widget = Widget(params[:id])
-  respond_to do |format|
-    format.html # show.html.erb
-    format.json { render json: @widget }
-  end
-end
-{% endhighlight %}
+2.去掉一些隐式变量： $index、$key
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+```
+// 第一个参数为 val，第二个参数为 index
+<li v-for="(val, index) in values" :key="index">
+    {{val}} {{index}}
+</li>
+```
+```
+// 1.0 第一个参数为 index，第二个参数为 val
+<li v-for="(val, index) in values" :track-by="index">
+    {{val}} {{index}}
+</li>
+```
+##### 5.自定义键盘指令
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+
+```
+// vue 1.0
+Vue.directive('on').keyCode.enter = 13;
+<input type="text" @keyup.enter="change">
+
+// vue 2.0
+Vue.config.keyCodes.ctrl = 17;
+<input type="text" @keyup.ctrl="change">
+```
+##### 6.过滤器
+lodash 工具库
+
+官网：https://lodash.com/
+
+中文文档：http://lodashjs.com/docs/#_chunkarray-size1
+
+```
+// vue 2.0 内置过滤器全部删除
+{{msg | currency}} // 货币转换
+json
+limitBy 2 4     // 限制数组元素的个数 第一个参数是限制个数 2，第二个参数是位置 4
+filterBy 'w'    // 过滤显示的内容 'w'
+...
+
+```
+###### 6.1 自定义过滤器
+
+```
+Vue.filter('toDou',function(input, a, b){
+    return input < 10 ? '0' + input : '' + input
+    // consloe.log(input);
+});
+
+// 过滤器传参发生变化
+{{msg | toDou '3' '1'}}  // vue 1.0
+{{msg | toDou('3','1')}} // vue 2.0
+```
+##### 7.动画
+vue 1.0 transition 是属性 添加到元素上
+
+```
+// html
+<p targsition="fade"></p>
+
+// css
+.fade-transition{}
+.fade-enter{} // 进入动画
+.fade-leave{} // 离开动画
+```
+
+
+vue 2.0 transition 是组件 <transition></transition>
+```
+// html
+<transition name="fade"
+    @before-enter="beforeEnter" // 动画进入之前
+    @enter="enter"              // 动画进入
+    @after-enter="afterEnter"   // 动画进入之后
+    @before-leave="beforeLeave" // 动画离开之前
+    @leave="leave"              // 动画离开
+    @after-leave="afterLeave"   //动画离开之后
+>
+    // 动画（元素、属性、路由）
+    <p></p>
+</transition>
+
+// css
+.fade-enter{}           // 初始状态
+.fade-enter-avtive{}    // 变化 -->显示
+.fade-leave{}           // 最终状态
+.fade-leave-active{}    // 变化 -->隐藏
+
+// animate.css 库配合使用
+<transition enter-active-class="fadeIn" leave-active-class="fadeOut">
+    <p class="animated"></p>
+</transition>
+// 或者
+<transition enter-active-class="animated fadeIn" leave-active-class="animated fadeOut">
+    <p></p>
+</transition>
+```
+多个元素动画 <transition-group></transition-group>
+
+
+```
+<transition-group enter-active-class="fadeIn" leave-active-class="fadeOut">
+    <p class="animated" :key="1"></p>
+    <p class="animated" :key="2"></p>
+</transition-group>
+```
+##### 8.vue 2.0 路由配置
+
+```
+// 引入 vue-router
+import VueRouter from 'vue-router';
+Vue.use(VueRouter);
+
+// html
+// 创建组件
+<router-link to="/home"></router-link>
+
+// 配置路由
+const routes = [
+    {path: '/home', component: Home},
+    {
+        path: '/user',
+        component: User
+        children:[
+            {path: ':username/age/:age', component: UserInfo} // /user/yiran/age=20
+        ]
+    },
+    ...
+    {path: '/', redirect: '/home'} // 默认页 router.redirect 已经废弃
+];
+
+// 生成路由实例
+const router = new VueRouter({
+    routes
+});
+
+// 挂载在 vue 上
+new Vue({
+    el: 'body',
+    router
+});
+```
+###### 8.1 路由实例方法
+
+```
+// 直接添加一个路由，表现是切换路由，本质是往历史记录里面添加一个
+router.push({path: '/home'});
+
+// 替换路由，表现是切换路由，但是不会往历史记录里面添加
+router.replace({path:'/user'});
+```
+###### 8.1 路由配合动画
+
+```
+<transition enter-active-class="animated fadeIn" leave-active-class="animated fadeOut">
+    <router-view></router-view>
+</transition>
+```
