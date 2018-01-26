@@ -8,6 +8,7 @@ author: 一文
 ##### 1.组件模板
 必须有一个根元素，包住所有的元素
 ##### 2.组件定义
+```js
     var A = { // vue2.0 定义组件方式
       template:'#a',
       ... 
@@ -20,7 +21,7 @@ author: 一文
         'my-a': A
       }
     });
-
+```
 ##### 3.生命周期
 vue2.0之前：
 - init -----------------> 组件实例刚被创建
@@ -45,13 +46,13 @@ vue2.0：
 
 2.去掉一些隐式变量： $index、$key
 
-```
+```js
 // 第一个参数为 val，第二个参数为 index
 <li v-for="(val, index) in values" :key="index">
     {{val}} {{index}}
 </li>
 ```
-```
+```js
 // 1.0 第一个参数为 index，第二个参数为 val
 <li v-for="(val, index) in values" :track-by="index">
     {{val}} {{index}}
@@ -60,7 +61,7 @@ vue2.0：
 ##### 5.自定义键盘指令
 
 
-```
+```js
 // vue 1.0
 Vue.directive('on').keyCode.enter = 13;
 <input type="text" @keyup.enter="change">
@@ -76,7 +77,7 @@ lodash 工具库
 
 中文文档：http://lodashjs.com/docs/#_chunkarray-size1
 
-```
+```js
 // vue 2.0 内置过滤器全部删除
 {{msg | currency}} // 货币转换
 json
@@ -87,7 +88,7 @@ filterBy 'w'    // 过滤显示的内容 'w'
 ```
 ###### 6.1 自定义过滤器
 
-```
+```js
 Vue.filter('toDou',function(input, a, b){
     return input < 10 ? '0' + input : '' + input
     // consloe.log(input);
@@ -100,7 +101,7 @@ Vue.filter('toDou',function(input, a, b){
 ##### 7.动画
 vue 1.0 transition 是属性 添加到元素上
 
-```
+```js
 // html
 <p targsition="fade"></p>
 
@@ -112,7 +113,7 @@ vue 1.0 transition 是属性 添加到元素上
 
 
 vue 2.0 transition 是组件 <transition></transition>
-```
+```js
 // html
 <transition name="fade"
     @before-enter="beforeEnter" // 动画进入之前
@@ -144,7 +145,7 @@ vue 2.0 transition 是组件 <transition></transition>
 多个元素动画 <transition-group></transition-group>
 
 
-```
+```js
 <transition-group enter-active-class="fadeIn" leave-active-class="fadeOut">
     <p class="animated" :key="1"></p>
     <p class="animated" :key="2"></p>
@@ -152,7 +153,7 @@ vue 2.0 transition 是组件 <transition></transition>
 ```
 ##### 8.vue 2.0 路由配置
 
-```
+```js
 // 引入 vue-router
 import VueRouter from 'vue-router';
 Vue.use(VueRouter);
@@ -188,7 +189,7 @@ new Vue({
 ```
 ###### 8.1 路由实例方法
 
-```
+```js
 // 直接添加一个路由，表现是切换路由，本质是往历史记录里面添加一个
 router.push({path: '/home'});
 
@@ -197,7 +198,7 @@ router.replace({path:'/user'});
 ```
 ###### 8.1 路由配合动画
 
-```
+```js
 <transition enter-active-class="animated fadeIn" leave-active-class="animated fadeOut">
     <router-view></router-view>
 </transition>
