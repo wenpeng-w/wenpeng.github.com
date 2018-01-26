@@ -1,0 +1,12 @@
+{
+  "name": "yiwen",
+  "version": "1.0.0",
+  "author": "Yiwen",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.2",
+    "gulp-less": "^3.4.0"
+  }
+}

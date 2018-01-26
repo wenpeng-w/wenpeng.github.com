@@ -24,7 +24,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Yiwen
-SEOTitle: Yiwen | 一文博客
+SEOTitle: 一文博客 - Yiwen
 email: 449202631@qq.com
 keywords: 一文博客，前端工程师，womenl.cn
 description: Yiwen 的个人博客，研究前端技术，一个奔跑在前端开发路上的程（cai）序（niao）员。
@@ -41,6 +41,7 @@ github_username: wenpeng-w
 
 # Build settings
 paginate: 2
+paginate_path: /page/:num/
 permalink: /:year/:month/:day/:title/
 markdown: kramdown
 plugins:
@@ -54,10 +55,10 @@ __IMG__: "/static/images"
 
 # page navigation
 navs:
-  - {name: 首页, url: "/"}
-  - {name: 文章, url: "/archives"}
-  - {name: 标签, url: "/tags"}
-  - {name: 关于我, url: "/about"}
+  - {name: 首页, title: home, url: "/"}
+  - {name: 文章, title: archives, url: "/archives/"}
+  - {name: 标签, title: tags, url: "/tags/"}
+  - {name: 关于我, title: about, url: "/about/"}
 # Exclude from processing.
 
 # The following items will not be processed, by default. Create a custom list

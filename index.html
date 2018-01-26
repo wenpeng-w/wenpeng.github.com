@@ -1,41 +1,45 @@
 ---
 layout: default
+link: "/"
 ---
 <div class="grid-row">
-    <div class="grid-col_4_3">
+    <!-- 文章列表 -->
+    <div class="grid-col_6_4 post-wrap">
         {% for post in paginator.posts %}
         <div class="post-item">
             <h2 class="post-title">
-                <a href="{{ post.url }}">{{ post.title }}</a>
+                <a class="name" href="{{ post.url }}">{{ post.title }}</a>
             </h2>
             {% if post.subtitle %}
-            <h3 class="post-subtitle">
-                {{ post.subtitle }}
-            </h3>
             {% endif %}
-            <div class="post-content">
-                {{ post.content | strip_html | truncate:200 }}
+            <div class="post-desc">
+                {{ post.content | strip_html | truncate:140 }}
             </div>
             <div class="post-meta">
-                Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%Y-%m-%d" }}
+                <span>{{ post.date | date: "%Y-%m-%d" }}</span>
+                <span>{% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %}</span>
             </div>
         </div>
         {% endfor %}
 
         <!-- pages -->
         {% if paginator.total_pages > 1 %}
-        <ul class="pager">
+        <ul class="pagination clx">
             {% if paginator.previous_page %}
             <li class="previous">
-                <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+                <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">上一页</a>
             </li>
             {% endif %}
             {% if paginator.next_page %}
             <li class="next">
-                <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+                <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">下一页</a>
             </li>
             {% endif %}
         </ul>
         {% endif %}
-    </div>
+    </div><!-- /文章列表 -->
+    <!-- 侧边栏 -->
+    <div class="grid-col_6_2 side-bar">
+
+    </div><!-- /侧边栏 -->
 </div>

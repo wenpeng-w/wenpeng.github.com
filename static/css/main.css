@@ -1,61 +1,61 @@
 @charset "utf-8";
-
-/* 初始化 */
-html,body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,input,textarea,p,blockquote,th,td{margin:0;padding:0;font-family:"SimSun","Arial","sans-serif";}
-input{-webkit-appearance:none;outline:none}
-html,body{color: #757575;;}
-body{background:#fff;overflow-x:hidden;font-size: 14px; }
-ul,li{list-style:none;}
-a,a:link,a:visited{color: #757575;text-decoration:none;}
-h1,h2,h3,h4,h5,h6{color: #4c4c4c;;font-weight: normal;}
-img{border-style:none;vertical-align: middle;}
-
-/* 浮动清除 */
-.clx:after{ content:'.';display:block;clear: both;overflow:hidden;visibility:hidden;font-size:0;line-height:0;width:0;height:0; }
-.clx{zoom:1;}
-
-/**
- *  page main css
- *  header
- */
-
-.highlight code {
-    font-family: Arial;
-    line-height: 1.6;
-}
-
-.container {
-    width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-}
+blockquote,body,dd,div,dl,dt,form,h1,h2,h3,h4,h5,h6,html,input,li,ol,p,td,textarea,th,ul{margin:0;padding:0;font-family:'Roboto Slab',SimSun,Arial,sans-serif}
+input{-webkit-appearance:none;outline:0}
+body,html{color:#333}
+body{background:#fff;overflow-x:hidden;font-size:14px}
+li,ul{list-style:none}
+a,a:link,a:visited{color:#333;text-decoration:none}
+h1,h2,h3,h4,h5,h6{font-weight:400}
+img{border-style:none;vertical-align:middle}
+.clx:after{content:'.';display:block;clear:both;overflow:hidden;visibility:hidden;font-size:0;line-height:0;width:0;height:0}
+.clx{zoom:1}
+.highlight code{font-family:Arial;line-height:1.6}
 .grid-row{position:relative;margin:auto}
 .grid-row:after{content:".";display:block;height:0;clear:both;visibility:hidden}
-.grid-row .grid-col_4_1,.grid-row .grid-col_4_2,.grid-row .grid-col_4_3,.grid-row .grid-col_4_4{float:left;padding-left:10px;padding-right:10px;box-sizing:border-box}
-.grid-row .grid-col_4_1{width:25%}
-.grid-row .grid-col_4_2{width:50%}
-.grid-row .grid-col_4_3{width:75%}
-.grid-row .grid-col_4_4{width:100%;float:none;clear:both}
+.grid-row .grid-col_6_1,.grid-row .grid-col_6_2,.grid-row .grid-col_6_3,.grid-row .grid-col_6_4,.grid-row .grid-col_6_5,.grid-row .grid-col_6_6{float:left;padding-left:10px;padding-right:10px;box-sizing:border-box}
+.grid-row .grid-col_6_1{width:16.66667%}
+.grid-row .grid-col_6_2{width:33.33333%}
+.grid-row .grid-col_6_3{width:50%}
+.grid-row .grid-col_6_4{width:66.66667%}
+.grid-row .grid-col_6_5{width:83.33333%}
+.grid-row .grid-col_6_6{width:100%;float:none;clear:both}
 @media screen and (max-width:1550px){
-    .grid-row{width:1200px}
+.grid-row{width:1200px}
 }
 @media screen and (max-width:1250px){
-    .grid-row{width:900px}
+.grid-row{width:900px}
 }
 @media screen and (max-width:950px){
-    .grid-row{width:600px}
-    .grid-row .grid-col_4_1{width:50%}
-    .grid-row .grid-col_4_2{width:100%}
+.grid-row{width:600px}
+.grid-row .grid-col_6_2{width:100%}
+.grid-row .grid-col_6_3{width:100%}
+.grid-row .grid-col_6_4{width:100%}
+.grid-row .grid-col_6_5{width:100%}
 }
 @media screen and (max-width:650px){
-    .grid-row{width:100%}
-    .grid-row .grid-col_4_1{width:100%}
-    .grid-row .grid-col_4_2{width:100%}
+.grid-row{width:100%}
+.grid-row .grid-col_6_2{width:100%}
+.grid-row .grid-col_6_3{width:100%}
+.grid-row .grid-col_6_4{width:100%}
+.grid-row .grid-col_6_5{width:100%}
 }
-
-/* header */
-.header {
-    width: 100%;
-    height: 60px;
-    background-color: #000;
-}
+.header{width:100%;height:60px;background-color:#000}
+.logo{float:left}
+.logo a{display:block;width:100px;line-height:60px;font-size:24px;color:#fff}
+.nav{float:right;height:60px}
+.nav .nav-list{position:relative;overflow:hidden}
+.nav .nav-list .nav-item{float:left;min-width:100px}
+.nav-item .nav-name{display:block;line-height:60px;padding:0 10px;text-align:center;font-size:16px;color:#fff}
+.nav .nav-list .active .nav-name{color:#0f0}
+.post-wrap{position:relative;margin:20px 0}
+.post-wrap .post-item{margin-bottom:15px;padding-bottom:15px;border-bottom:1px solid #f1f1f1}
+.post-item .post-title{margin-bottom:8px;line-height:1.4;font-size:17px}
+.post-item .post-title .name{display:inline-block;transition:all .3s linear}
+.post-item .post-title .name:after{display:block;content:'';width:0;height:0;border-bottom:1px solid #0f0;transition:all .3s linear}
+.post-item .post-title .name:hover{transition:all .3s linear;color:#0f0}
+.post-item .post-title .name:hover:after{width:100%}
+.post-item .post-desc{margin-bottom:15px;font-size:14px;line-height:1.6;color:#666}
+.pagination{overflow:hidden}
+.pagination .previous{float:left}
+.pagination .next{float:right}
+.side-bar{width:100%;min-height:400px;margin:20px 0;background-color:#000}

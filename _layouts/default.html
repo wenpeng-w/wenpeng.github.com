@@ -3,21 +3,10 @@
 {% include head.html %}
 <body>
 
-<div class="header">
-    <div class="container">
-        <div class="logo"></div>
-        <div class="nav">
-            <ul>
-                {% for nav in site.navs %}
-                <li>
-                    <a href="{{ nav.url }}">{{ nav.name }}</a>
-                </li>
-                {% endfor %}
-            </ul>
-        </div>
-    </div>
-</div>
+    {% include header.html %}
 
     {{ content }}
+    <script src="{{ site.__JS__ }}/jquery-1.11.1.min.js"></script>
+    <script src="{{ site.__JS__ }}/main.js"></script>
 </body>
 </html>
