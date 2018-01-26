@@ -4,6 +4,7 @@ title:  "Welcome to Jekyll!"
 date:   2018-01-23 20:35:23 +0800
 categories: jekyll update
 author: 一文
+tags: Jekyll
 ---
 ##### 1.组件模板
 必须有一个根元素，包住所有的元素

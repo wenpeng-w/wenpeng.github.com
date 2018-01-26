@@ -40,7 +40,7 @@ url: "http://127.0.0.1:4000"
 github_username: wenpeng-w
 
 # Build settings
-paginate: 2
+paginate: 3
 paginate_path: /page/:num/
 permalink: /:year/:month/:day/:title/
 markdown: kramdown
