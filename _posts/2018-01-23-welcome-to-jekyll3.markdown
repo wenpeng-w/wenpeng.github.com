@@ -45,6 +45,7 @@ author: Yiwen
     - update ------------> 组件更新完成
     - beforeDestroy ---> 销毁之前
     - destroyed ---------> 销毁
+
 ##### 4.循环
 
 - 1.默认就可以添加重复数

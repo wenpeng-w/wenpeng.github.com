@@ -3,9 +3,11 @@
 // Website theme
 @mainColor: #000;
 @mainColor_ft: #333;
+@linkColor: #333;
+@linkColorHover: #000;
 
 /* 初始化 */
-html,body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,input,textarea,p,blockquote,th,td{margin:0;padding:0;font-family: 'Roboto Slab',"SimSun","Arial","sans-serif";}
+html,body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,input,textarea,p,blockquote,th,td{margin:0;padding:0;font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;}
 input{-webkit-appearance:none;outline:none}
 html,body{color: #333;;}
 body{background:#fff;overflow-x:hidden;font-size: 14px; }
@@ -86,7 +88,7 @@ img{border-style:none;vertical-align: middle;}
 }
 .nav .nav-list .nav-item {
   float: left;
-  min-width: 100px;
+  min-width: 86px;
 }
 .nav-item .nav-name {
   display: block;
@@ -99,6 +101,28 @@ img{border-style:none;vertical-align: middle;}
 .nav .nav-list .active .nav-name {
   color: #fff;
 }
+
+/* footer */
+.footer {
+  width: 100%;
+  padding: 20px 0;
+  //background-color: #000;
+  .footer-content {
+    text-align: center;
+    color: #999;
+    font-size: 13px;
+    p {
+      line-height: 1.6;
+    }
+    .author-link {
+      color: #666;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
 // 文章列表
 .post-wrap {
   position: relative;
@@ -155,16 +179,17 @@ img{border-style:none;vertical-align: middle;}
   margin-bottom: 15px;
   font-size: 14px;
   line-height: 1.6;
-  color: #666;
+  color: #555;
 }
 .post-item .post-content .post-meta span {
   margin-right: 6px;
+  color: #999;
 }
 .post-item .post-content .post-meta .post-tag {
   padding: 2px 6px;
-  background-color: #ddd;
+  background-color: #eee;
   border-radius: 2px;
-  color: #666;
+  color: #4d4d4c;
   font-size: 12px;
 }
 .post-item .post-content .post-meta .post-tag:hover {
@@ -175,33 +200,92 @@ img{border-style:none;vertical-align: middle;}
 .pagination {
   overflow: hidden;
     .page-run {
-      width: 100px;
+      display: block;
+
       height: 32px;
       line-height: 32px;
       text-align: center;
-      border: 1px solid #333;
-      border-radius: 2px;
+
       transition: all .3s linear;
-      a {
-        display: block;
-      }
+      color: @linkColor;
       &:hover {
-        background-color: @mainColor;
-        border-color: @mainColor;
-        a {
-          color: #fff;
-        }
+        color: @linkColorHover;
       }
     }
     .previous {
       float: left;
+      padding-right: 6px;
     }
     .next {
       float: right;
+      padding-left: 6px;
     }
 }
-.pagination {}
 
+/* article */
+.article-wrap {
+  margin: 20px auto;
+}
+.article {
+  .article-head {
+    border-bottom: 1px solid #f1f1f1;
+    .art-title {
+      margin-bottom: 10px;
+      font-size: 22px;
+    }
+    .art-mata {
+      margin-bottom: 10px;
+      color: #666;
+      span {
+        margin-right: 6px;
+      }
+      .post-tag {
+        font-size: 13px;
+        padding: 2px 6px;
+        background-color: #eee;
+        color: #4d4d4c;
+        &:hover {
+          color: #000;
+        }
+      }
+    }
+  }
+  .article-content {
+    line-height: 1.8;
+    padding-top: 20px;
+    color: #444;
+    h1, h2, h3, h4, h5, h6 {
+      margin-bottom: 10px;
+      font-size: 17px;
+    }
+    ul, p, &> div {
+      margin-bottom: 20px;
+    }
+    img {
+      display: block;
+      margin: 15px auto;
+    }
+  }
+}
+.page-prev-and-next {
+  width: 100%;
+  padding-top: 20px;
+  border-top: 1px solid #f1f1f1;
+  white-space: nowrap;
+  overflow: hidden;
+  .page-prev, .page-next {
+    width: 50%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .page-prev {
+    float: right;
+    text-align: right;
+  }
+  .page-next {
+    float: left;
+  }
+}
 // Sidebar
 .side-bar {
   width: 100%;

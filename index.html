@@ -9,7 +9,7 @@ link: "/"
         <div class="post-item">
             {% if post.post-img %}
             <a href="{{ post.url }}" class="post-img">
-                <img src="{{ post.post-img }}" alt="107">
+                <img src="{{ post.post-img }}" alt="{{ post.title }}">
             </a>
             <div class="post-content has-img">
                 <h2 class="post-title">
@@ -52,22 +52,17 @@ link: "/"
 
         <!-- pages -->
         {% if paginator.total_pages > 1 %}
-        <ul class="pagination clx">
+        <div class="pagination clx">
             {% if paginator.previous_page %}
-            <li class="page-run previous">
-                <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">← 上一页</a>
-            </li>
+            <a class="page-run previous" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&lt; 上一页</a>
             {% endif %}
             {% if paginator.next_page %}
-            <li class="page-run next">
-                <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">下一页 →</a>
-            </li>
+            <a class="page-run next" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">下一页 &gt;</a>
             {% endif %}
-        </ul>
+        </div>
         {% endif %}
     </div><!-- /文章列表 -->
     <!-- 侧边栏 -->
     <div class="grid-col_6_2 side-bar">
-
     </div><!-- /侧边栏 -->
 </div>
