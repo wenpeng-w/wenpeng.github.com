@@ -1,15 +1,19 @@
 @charset "utf-8";
 
 // Website theme
+
 @mainColor: #000;
 @mainColor_ft: #333;
 @linkColor: #333;
 @linkColorHover: #000;
 
+.mixin (@rgb, @a) {
+  background-color: fade(@rgb, @a);
+}
 /* 初始化 */
-html,body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,input,textarea,p,blockquote,th,td{margin:0;padding:0;font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;}
+html,body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,input,textarea,p,blockquote,th,td{margin:0;padding:0;font-family: "Helvetica Neue",Helvetica,"SimSun",Arial,sans-serif;}
 input{-webkit-appearance:none;outline:none}
-html,body{color: #333;;}
+html,body{color: #333;height: 100%}
 body{background:#fff;overflow-x:hidden;font-size: 14px; }
 ul,li{list-style:none;}
 a,a:link,a:visited{color: #333;text-decoration:none;}
@@ -32,7 +36,7 @@ img{border-style:none;vertical-align: middle;}
 
 .grid-row{position:relative;margin:auto}
 .grid-row:after{content:".";display:block;height:0;clear:both;visibility:hidden}
-.grid-row .grid-col_6_1,.grid-row .grid-col_6_2,.grid-row .grid-col_6_3,.grid-row .grid-col_6_4,.grid-row .grid-col_6_5,.grid-row .grid-col_6_6{float:left;padding-left:10px;padding-right:10px;box-sizing:border-box}
+.grid-row .grid-col_6_1,.grid-row .grid-col_6_2,.grid-row .grid-col_6_3,.grid-row .grid-col_6_4,.grid-row .grid-col_6_5,.grid-row .grid-col_6_6{float:left;padding-left:15px;padding-right:15px;box-sizing:border-box}
 .grid-row .grid-col_6_1{width:16.66667%}
 .grid-row .grid-col_6_2{width:33.33333%}
 .grid-row .grid-col_6_3{width:50%}
@@ -126,9 +130,12 @@ img{border-style:none;vertical-align: middle;}
 // 文章列表
 .post-wrap {
   position: relative;
-  margin: 20px 0;
+  margin: 40px 0;
 }
-.post-wrap .post-item {
+.post-wrap .post-list {
+  margin-top: 20px;
+}
+.post-wrap .post-list .post-item {
   position: relative;
   margin-bottom: 15px;
   padding-bottom: 15px;
@@ -224,7 +231,7 @@ img{border-style:none;vertical-align: middle;}
 
 /* article */
 .article-wrap {
-  margin: 20px auto;
+  margin: 40px auto;
 }
 .article {
   .article-head {
@@ -290,11 +297,132 @@ img{border-style:none;vertical-align: middle;}
 .side-bar {
   width: 100%;
   min-height: 400px;
-  margin: 20px 0;
+  margin: 40px 0;
+}
+.block-panel {
+  margin-bottom: 25px;
+  .block-panel-title {
+    padding-bottom: 2px;
+    &.bd-b {
+      border-bottom: 1px solid #ddd;
+    }
+    .name {
+      font-size: 17px;
+      font-weight: 600;
+    }
+  }
 }
 
+// 侧边栏分类目录
+.categories-wrap {
+  .categories {
+    .cate-list {
+      width: 100%;
+      line-height: 1.8;
+      margin-top: 10px;
+      font-size: 14px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      .dot {
+        display: inline-block;
+        width: 5px;
+        height: 5px;
+        margin: 0 6px 0 2px;
+        background-color: #888;
+        border-radius: 100%;
+        vertical-align: middle;
+      }
+      .name {
+        &:hover {
+          text-decoration: underline;
+          color: @linkColorHover;
+        }
+      }
+      .num {
+        margin-left: 6px;
+        padding: 0 6px;
+        border-radius: 8px;
+        background-color: #eee;
+        color: #888;
+      }
+    }
+  }
+}
 
+// 标签
+.tag-wrap {
+  .tag {
+    .tag-item {
+      display: inline-block;
+      height: 22px;
+      line-height: 22px;
+      padding: 0 10px;
+      margin: 10px 8px 0 0;
+      border: 1px solid #333;
+      border-radius: 12px;
+      font-size: 13px;
+      color: @linkColor;
+      &:hover {
+        .mixin(@mainColor,10%);
+        color: @linkColorHover;
+      }
+    }
+  }
+}
 
+/* 日志归档 */
+.archives-page {
+  .archives-list {
+    margin: 40px auto;
+    .year-title{
+      margin-top: 20px;
+    }
+    .year-arc-item{
+      height: 46px;
+      line-height: 46px;
+      .art-link {
+        height: inherit;
+        display: block;
+        position: relative;
+        padding-right: 150px;
+        border-bottom: 1px solid #f1f1f1;
+        transition: all .3s linear;
+        .name {
+          width: 100%;
+          height: inherit;
+          display: inline-block;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+        }
+        .date {
+          position: absolute;
+          top: 0;
+          right: 0;
+          color: #888;
+        }
+        &:hover {
+          border-bottom: 1px solid @linkColorHover;
+          .name {
+            color: @linkColorHover;
+          }
+        }
+      }
+    }
+  }
+}
+.arc-nav {
+  width: 240px;
+  margin: 40px auto;
+  padding: 15px;
+  border: 1px solid #4d4d4c;
+}
+.home-page, .archives-page {
+  .side-bar {
+    padding-left: 40px;
+  }
+}
 
 
 

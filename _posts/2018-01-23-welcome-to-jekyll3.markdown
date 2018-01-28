@@ -2,7 +2,8 @@
 layout: post
 title:  "VueJS 2.0 的API更新"
 date:   2018-01-26 08:32:40 +0800
-categories: jekyll update
+categories: 框架
+tags: Vue
 author: Yiwen
 ---
 ##### 1.组件模板

@@ -2,68 +2,78 @@
 layout: default
 link: "/"
 ---
-<div class="grid-row">
-    <!-- 文章列表 -->
-    <div class="grid-col_6_4 post-wrap">
-        {% for post in paginator.posts %}
-        <div class="post-item">
-            {% if post.post-img %}
-            <a href="{{ post.url }}" class="post-img">
-                <img src="{{ post.post-img }}" alt="{{ post.title }}">
-            </a>
-            <div class="post-content has-img">
-                <h2 class="post-title">
-                    <a class="name" href="{{ post.url }}">{{ post.title }}</a>
-                </h2>
-                <div class="post-desc">
-                    {{ post.content | strip_html | truncate:140 }}
+<div class="home-page">
+    <div class="grid-row">
+        <!-- 文章列表 -->
+        <div class="grid-col_6_4 post-wrap">
+            <div class="block-panel">
+                <div class="block-panel-title">
+                    <h3 class="name">文章目录</h3>
                 </div>
-                <div class="post-meta">
-                    <span>{{ post.date | date: "%Y-%m-%d" }}</span>
-                    <span>{% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %}</span>
-                    {% if post %}
-                    {% for tag in post.tags %}
-                    <a href="/tags/#{{ tag }}" class="post-tag">{{ tag }}</a>
+                <div class="post-list">
+                    {% for post in paginator.posts %}
+                    <div class="post-item">
+                        {% if post.post-img %}
+                        <a href="{{ post.url }}" class="post-img">
+                            <img src="{{ post.post-img }}" alt="{{ post.title }}">
+                        </a>
+                        <div class="post-content has-img">
+                            <h2 class="post-title">
+                                <a class="name" href="{{ post.url }}">{{ post.title }}</a>
+                            </h2>
+                            <div class="post-desc">
+                                {{ post.content | strip_html | truncate:140 }}
+                            </div>
+                            <div class="post-meta">
+                                <span>{{ post.date | date: "%Y-%m-%d" }}</span>
+                                <span>{% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %}</span>
+                                {% if post %}
+                                {% for tag in post.tags %}
+                                <a href="/tags/#{{ tag }}" class="post-tag">{{ tag }}</a>
+                                {% endfor %}
+                                {% endif %}
+                            </div>
+                        </div>
+                        {% else %}
+                        <div class="post-content">
+                            <h2 class="post-title">
+                                <a class="name" href="{{ post.url }}">{{ post.title }}</a>
+                            </h2>
+                            <div class="post-desc">
+                                {{ post.content | strip_html | truncate:140 }}
+                            </div>
+                            <div class="post-meta">
+                                <span>{{ post.date | date: "%Y-%m-%d" }}</span>
+                                <span>{% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %}</span>
+                                {% if post %}
+                                {% for tag in post.tags %}
+                                <a href="/tags/#{{ tag }}" class="post-tag">{{ tag }}</a>
+                                {% endfor %}
+                                {% endif %}
+                            </div>
+                        </div>
+                        {% endif %}
+                    </div>
                     {% endfor %}
+
+                    <!-- pages -->
+                    {% if paginator.total_pages > 1 %}
+                    <div class="pagination clx">
+                        {% if paginator.previous_page %}
+                        <a class="page-run previous" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&lt; 上一页</a>
+                        {% endif %}
+                        {% if paginator.next_page %}
+                        <a class="page-run next" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">下一页 &gt;</a>
+                        {% endif %}
+                    </div>
                     {% endif %}
                 </div>
             </div>
-            {% else %}
-            <div class="post-content">
-                <h2 class="post-title">
-                    <a class="name" href="{{ post.url }}">{{ post.title }}</a>
-                </h2>
-                <div class="post-desc">
-                    {{ post.content | strip_html | truncate:140 }}
-                </div>
-                <div class="post-meta">
-                    <span>{{ post.date | date: "%Y-%m-%d" }}</span>
-                    <span>{% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %}</span>
-                    {% if post %}
-                    {% for tag in post.tags %}
-                    <a href="/tags/#{{ tag }}" class="post-tag">{{ tag }}</a>
-                    {% endfor %}
-                    {% endif %}
-                </div>
-            </div>
-            {% endif %}
-        </div>
-        {% endfor %}
-
-        <!-- pages -->
-        {% if paginator.total_pages > 1 %}
-        <div class="pagination clx">
-            {% if paginator.previous_page %}
-            <a class="page-run previous" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&lt; 上一页</a>
-            {% endif %}
-            {% if paginator.next_page %}
-            <a class="page-run next" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">下一页 &gt;</a>
-            {% endif %}
-        </div>
-        {% endif %}
-    </div><!-- /文章列表 -->
-    <!-- 侧边栏 -->
-    <div class="grid-col_6_2 side-bar">
-
-    </div><!-- /侧边栏 -->
+        </div><!-- /文章列表 -->
+        <!-- 侧边栏 -->
+        <div class="grid-col_6_2 side-bar">
+            {% include categories.html %}
+            {% include tag.html %}
+        </div><!-- /侧边栏 -->
+    </div>
 </div>

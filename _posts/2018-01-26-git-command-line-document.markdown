@@ -2,7 +2,7 @@
 layout: post
 title:  "git 命令行 文档"
 date:   2018-01-26 18:46:40 +0800
-categories: git
+tags: git
 author: Yiwen
 ---
 ##### 1. 删除文件夹
