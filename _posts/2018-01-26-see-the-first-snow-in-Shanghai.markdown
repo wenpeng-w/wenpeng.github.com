@@ -3,7 +3,7 @@ layout: post
 title:  "2018年1月25日，看到上海的第一场雪"
 date:   2018-01-26 08:32:40 +0800
 categories: 生活
-tags: 上海
+tags: 上海 生活
 author: Yiwen
 post-img: "http://img.hb.aicdn.com/1cd340b1ecf3e18a4b6be569bc53796bebd0792943f42-jXYqeA_fw658"
 ---

@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8af341b-33f9-4ac8-a0db-ff21f9eb2794" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/baidu-verify-85928200D3.txt" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-01-26-see-the-first-snow-in-Shanghai.markdown" afterPath="$PROJECT_DIR$/_posts/2018-01-26-see-the-first-snow-in-Shanghai.markdown" />
+      <change beforePath="$PROJECT_DIR$/baidu-verify-85928200D3.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/categories.html" afterPath="$PROJECT_DIR$/categories.html" />
+      <change beforePath="$PROJECT_DIR$/less/main.less" afterPath="$PROJECT_DIR$/less/main.less" />
+      <change beforePath="$PROJECT_DIR$/static/css/main.css" afterPath="$PROJECT_DIR$/static/css/main.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,11 +31,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tag.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_includes/tag.html">
+      <file leaf-file-name="tags.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tags.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="2" column="33" lean-forward="false" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+            <state relative-caret-position="130">
+              <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -39,11 +44,10 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="77" column="10" lean-forward="false" selection-start-line="77" selection-start-column="10" selection-end-line="77" selection-end-column="10" />
+            <state relative-caret-position="312">
+              <caret line="32" column="44" lean-forward="true" selection-start-line="30" selection-start-column="32" selection-end-line="32" selection-end-column="44" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
               </folding>
             </state>
@@ -51,10 +55,10 @@
         </entry>
       </file>
       <file leaf-file-name="categories.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_includes/categories.html">
+        <entry file="file://$PROJECT_DIR$/categories.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="3" column="34" lean-forward="false" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+            <state relative-caret-position="364">
+              <caret line="23" column="41" lean-forward="false" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -63,38 +67,38 @@
       <file leaf-file-name="archives.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/archives.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="24" column="43" lean-forward="false" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
+            <state relative-caret-position="338">
+              <caret line="13" column="18" lean-forward="false" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="baidu-verify-85928200D3.txt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/baidu-verify-85928200D3.txt">
+      <file leaf-file-name="categories.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_includes/categories.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="208">
+              <caret line="8" column="99" lean-forward="true" selection-start-line="8" selection-start-column="86" selection-end-line="8" selection-end-column="99" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.less" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.less" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/less/main.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="422" column="23" lean-forward="false" selection-start-line="422" selection-start-column="23" selection-end-line="422" selection-end-column="23" />
+            <state relative-caret-position="293">
+              <caret line="439" column="38" lean-forward="false" selection-start-line="439" selection-start-column="38" selection-end-line="439" selection-end-column="38" />
               <folding>
                 <element signature="e#2680#2973#0" expanded="false" />
-                <element signature="e#4520#4905#0" expanded="false" />
-                <element signature="e#4987#5403#0" expanded="false" />
-                <element signature="e#5423#5691#0" expanded="false" />
-                <element signature="e#5714#6023#0" expanded="false" />
-                <element signature="e#6116#6315#0" expanded="false" />
-                <element signature="e#6345#7052#0" expanded="false" />
-                <element signature="e#7070#7426#0" expanded="false" />
-                <element signature="e#7454#8298#0" expanded="false" />
+                <element signature="e#4564#4949#0" expanded="false" />
+                <element signature="e#5031#5447#0" expanded="false" />
+                <element signature="e#5467#5735#0" expanded="false" />
+                <element signature="e#5758#6067#0" expanded="false" />
+                <element signature="e#6160#6359#0" expanded="false" />
+                <element signature="e#6389#7096#0" expanded="false" />
+                <element signature="e#7114#7470#0" expanded="false" />
+                <element signature="e#8352#8438#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -138,7 +142,6 @@
         <option value="$PROJECT_DIR$/_posts/2018-01-23-welcome-to-jekyll3.markdown" />
         <option value="$PROJECT_DIR$/_posts/2018-01-23-welcome-to-jekyll2.markdown" />
         <option value="$PROJECT_DIR$/_posts/2018-01-26-git-command-line-document.markdown" />
-        <option value="$PROJECT_DIR$/_posts/2018-01-26-see-the-first-snow-in-Shanghai.markdown" />
         <option value="$PROJECT_DIR$/_posts/2018-01-23-welcome-to-jekyll.markdown" />
         <option value="$PROJECT_DIR$/cetegories.html" />
         <option value="$PROJECT_DIR$/_includes/prevAndNext.html" />
@@ -146,11 +149,12 @@
         <option value="$PROJECT_DIR$/_includes/tag.html" />
         <option value="$PROJECT_DIR$/_includes/categories.html" />
         <option value="$PROJECT_DIR$/_config.yml" />
-        <option value="$PROJECT_DIR$/categories.html" />
         <option value="$PROJECT_DIR$/_posts/2017-12-26-test.markdown" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/less/main.less" />
+        <option value="$PROJECT_DIR$/_posts/2018-01-26-see-the-first-snow-in-Shanghai.markdown" />
         <option value="$PROJECT_DIR$/archives.html" />
+        <option value="$PROJECT_DIR$/categories.html" />
+        <option value="$PROJECT_DIR$/less/main.less" />
       </list>
     </option>
   </component>
@@ -192,6 +196,11 @@
             <path>
               <item name="yiwen" type="b2602c69:ProjectViewProjectNode" />
               <item name="yiwen" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yiwen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yiwen" type="462c0819:PsiDirectoryNode" />
+              <item name="_posts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -242,12 +251,12 @@
       <updated>1516712818664</updated>
       <workItem from="1516712820860" duration="63579000" />
       <workItem from="1516962978490" duration="38973000" />
-      <workItem from="1517065673069" duration="25418000" />
+      <workItem from="1517065673069" duration="30223000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127970000" />
+    <option name="totallyTimeSpent" value="132775000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -437,33 +446,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-01-26-see-the-first-snow-in-Shanghai.markdown">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="81">
-            <caret line="5" column="6" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="2" column="30" lean-forward="false" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-01-26-git-command-line-document.markdown">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="78">
-            <caret line="3" column="33" lean-forward="false" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2018-01-23-welcome-to-jekyll3.markdown">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -562,26 +544,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tags.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/about.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
           <caret line="7" column="19" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/tag.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="2" column="33" lean-forward="false" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
           <folding />
         </state>
       </provider>
@@ -613,65 +579,108 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/categories.html">
+    <entry file="file://$PROJECT_DIR$/baidu-verify-85928200D3.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-01-26-git-command-line-document.markdown">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="234">
+            <caret line="9" column="34" lean-forward="true" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/categories.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="8" column="99" lean-forward="true" selection-start-line="8" selection-start-column="86" selection-end-line="8" selection-end-column="99" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/tag.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="33" lean-forward="false" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tags.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-01-26-see-the-first-snow-in-Shanghai.markdown">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="81">
+            <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="30" lean-forward="false" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="77" column="10" lean-forward="false" selection-start-line="77" selection-start-column="10" selection-end-line="77" selection-end-column="10" />
+        <state relative-caret-position="312">
+          <caret line="32" column="44" lean-forward="true" selection-start-line="30" selection-start-column="32" selection-end-line="32" selection-end-column="44" />
           <folding>
             <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/categories.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="3" column="34" lean-forward="false" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/less/main.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="422" column="23" lean-forward="false" selection-start-line="422" selection-start-column="23" selection-end-line="422" selection-end-column="23" />
-          <folding>
-            <element signature="e#2680#2973#0" expanded="false" />
-            <element signature="e#4520#4905#0" expanded="false" />
-            <element signature="e#4987#5403#0" expanded="false" />
-            <element signature="e#5423#5691#0" expanded="false" />
-            <element signature="e#5714#6023#0" expanded="false" />
-            <element signature="e#6116#6315#0" expanded="false" />
-            <element signature="e#6345#7052#0" expanded="false" />
-            <element signature="e#7070#7426#0" expanded="false" />
-            <element signature="e#7454#8298#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/archives.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="24" column="43" lean-forward="false" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
+        <state relative-caret-position="338">
+          <caret line="13" column="18" lean-forward="false" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/baidu-verify-85928200D3.txt">
+    <entry file="file://$PROJECT_DIR$/categories.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="364">
+          <caret line="23" column="41" lean-forward="false" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="41" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/main.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="439" column="38" lean-forward="false" selection-start-line="439" selection-start-column="38" selection-end-line="439" selection-end-column="38" />
+          <folding>
+            <element signature="e#2680#2973#0" expanded="false" />
+            <element signature="e#4564#4949#0" expanded="false" />
+            <element signature="e#5031#5447#0" expanded="false" />
+            <element signature="e#5467#5735#0" expanded="false" />
+            <element signature="e#5758#6067#0" expanded="false" />
+            <element signature="e#6160#6359#0" expanded="false" />
+            <element signature="e#6389#7096#0" expanded="false" />
+            <element signature="e#7114#7470#0" expanded="false" />
+            <element signature="e#8352#8438#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
