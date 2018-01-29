@@ -3,6 +3,43 @@ layout: default
 link: "/tags/"
 ---
 
-<div>
-    即将上线... ^_^
+<div class="tags-page">
+    <div class=" grid-row tags-wrap">
+        <div class="grid-col_6_6 block-panel">
+            <div class="tags-head clx">
+                {% for tag in site.tags %}
+                <a class="tags-title" href="/tags/#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">{{ tag[0] }}</a>
+                {% endfor %}
+            </div>
+            <div class="tags-content">
+                {% for tag in site.tags %}
+                <div class="tags-item">
+                    <h2 class="tags-type" id="{{ tag[0] }}">{{ tag[0] }}</h2>
+                    <ul class="type-item">
+                        {% for ta in tag %}
+                        {% for post in ta %}
+                        {% capture post1 %}{{ post.title }}{% endcapture %}
+                        {% capture post2 %}{{ post.title.next }}{% endcapture %}
+                        {% if post1 != post2 %}
+                            <li class="type-item-list">
+                                <a class="item-list-cont" href="{{ post.url }}" title="{{ post.title }}">
+                                    <span class="post-title">{{post.title}}</span>
+                                    {% for cate in post.categories %}
+                                    <span class="post-cate">{{ cate }}</span>
+                                    {% endfor %}
+                                    {% for tag in post.tags %}
+                                    <span class="post-tag">{{ tag }}</span>
+                                    {% endfor %}
+                                    <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+                                </a>
+                            </li>
+                        {% endif %}
+                        {% endfor %}
+                        {% endfor %}
+                    </ul>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
 </div>

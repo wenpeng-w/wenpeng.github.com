@@ -1,25 +1,25 @@
 <!-- header -->
-<div class="header">
-    <div class="grid-row">
-        <div class="grid-col_6_6 clx">
-            <div class="logo">
-                <a href="/">一文</a>
-            </div>
-            <div id="nav" class="nav">
-                <ul class="nav-list">
-                    {% for nav in site.navs %}
-                        {% if nav.url == page.link %}
-                        <li class="nav-item active">
-                            <a class="nav-name" href="{{ nav.url }}"><span class="{{ nav.title }}-icon"></span>{{ nav.name }}</a>
-                        </li>
-                        {% else %}
-                        <li class="nav-item">
-                            <a class="nav-name" href="{{ nav.url }}"><span class="{{ nav.title }}-icon"></span>{{ nav.name }}</a>
-                        </li>
-                        {% endif %}
-                    {% endfor %}
-                </ul>
+    <div class="header">
+        <div class="grid-row">
+            <div class="grid-col_6_6 clx">
+                <div class="logo">
+                    <a href="/">一文</a>
+                </div>
+                <div id="nav" class="nav">
+                    <ul class="nav-list">
+                        {% for nav in site.navs %}
+                            {% if nav.url == page.link %}
+                            <li class="nav-item active">
+                                <a class="nav-name" href="{{ nav.url }}"><span class="{{ nav.title }}-icon"></span>{{ nav.name }}</a>
+                            </li>
+                            {% else %}
+                            <li class="nav-item">
+                                <a class="nav-name" href="{{ nav.url }}"><span class="{{ nav.title }}-icon"></span>{{ nav.name }}</a>
+                            </li>
+                            {% endif %}
+                        {% endfor %}
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
-</div>

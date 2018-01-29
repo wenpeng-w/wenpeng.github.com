@@ -16,7 +16,7 @@ input{-webkit-appearance:none;outline:none}
 html,body{color: #333;height: 100%}
 body{background:#fff;overflow-x:hidden;font-size: 14px; }
 ul,li{list-style:none;}
-a,a:link,a:visited{color: #333;text-decoration:none;}
+a,a:link,a:visited{color: #333;text-decoration:none;-webkit-tap-highlight-color:rgba(255,255,255,0)}
 h1,h2,h3,h4,h5,h6{font-weight: normal;}
 img{border-style:none;vertical-align: middle;}
 
@@ -235,7 +235,7 @@ img{border-style:none;vertical-align: middle;}
 
 /* article */
 .article-wrap {
-  margin: 40px auto;
+  margin-top: 40px;
 }
 .article {
   .article-head {
@@ -458,6 +458,81 @@ img{border-style:none;vertical-align: middle;}
             top: 0;
             right: 0;
             color: #888;
+          }
+        }
+      }
+    }
+  }
+}
+
+/* 标签 */
+.tags-page {
+  .tags-wrap {
+    margin-top: 40px;
+    .tags-head {
+      position: relative;
+      overflow: hidden;
+      .tags-title {
+        display: inline-block;
+        float: left;
+        min-width: 40px;
+        height: 28px;
+        line-height: 28px;
+        padding: 0 10px;
+        margin: 0 12px 10px 0;
+        border: 1px solid #4d4d4c;
+        border-radius: 30px;
+        text-align: center;
+        font-size: 14px;
+        color: @linkColor;
+        white-space: nowrap;
+        &:hover {
+          color: @linkColorHover;
+          .mixin(@mainColor,20%);
+        }
+      }
+    }
+    .tags-content {
+      .tags-item {
+        margin-top: 20px;
+        .tags-type {}
+        .type-item {
+          .type-item-list {
+            margin-top: 15px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #eee;
+            .item-list-cont {
+              display: block;
+              line-height: 1.6;
+              .post-title {
+
+              }
+              .post-cate {
+                margin-left: 10px;
+                white-space: nowrap;
+              }
+              .post-tag {
+                margin-left: 4px;
+                padding: 2px 6px;
+                background-color: #eee;
+                border-radius: 2px;
+                color: #4d4d4c;
+                font-size: 12px;
+                white-space: nowrap;
+              }
+              .post-date {
+                margin-left: 10px;
+                font-size: 14px;
+                color: #888;
+                white-space: nowrap;
+              }
+            }
+            &:hover {
+              .post-title {
+                color: @linkColorHover;
+                text-decoration: underline;
+              }
+            }
           }
         }
       }

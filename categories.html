@@ -19,7 +19,7 @@ link: "/categories/"
                     <li class="categ-item-li">
                         <a class="post-title" href="{{post.url}}" title="{{post.title}}">{{post.title}}</a>
                         {% for tag in post.tags %}
-                        <span class="post-tag" href="/tags/#{{ tag }}">{{ tag }}</span>
+                        <span class="post-tag">{{ tag }}</span>
                         {% endfor %}
                         <span class="date">{{ post.date | date: "%Y-%m-%d" }}</span>
                     </li>
