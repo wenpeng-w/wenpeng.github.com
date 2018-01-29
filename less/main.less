@@ -195,6 +195,10 @@ img{border-style:none;vertical-align: middle;}
   margin-right: 6px;
   color: #999;
 }
+.post-item .post-content .post-meta .post-cate {
+  margin-right: 6px;
+  color: #555;
+}
 .post-item .post-content .post-meta .post-tag {
   padding: 2px 6px;
   margin-right: 4px;
@@ -236,6 +240,7 @@ img{border-style:none;vertical-align: middle;}
 /* article */
 .article-wrap {
   margin-top: 40px;
+  margin-bottom: 15px;
 }
 .article {
   .article-head {
@@ -377,7 +382,7 @@ img{border-style:none;vertical-align: middle;}
 /* 日志归档 */
 .archives-page {
   .archives-list {
-    margin: 40px 0 25px 0;
+    margin: 40px 0 15px 0;
     .year-title{
       margin-top: 20px;
     }
@@ -425,7 +430,7 @@ img{border-style:none;vertical-align: middle;}
 /* 分类 */
 .categories-page {
   .category {
-    margin: 40px auto;
+    margin-top: 40px;
     .categ-item {
       .categ-item-title {}
       .categ-item-list {
@@ -486,6 +491,7 @@ img{border-style:none;vertical-align: middle;}
         font-size: 14px;
         color: @linkColor;
         white-space: nowrap;
+        transition: all .3s linear;
         &:hover {
           color: @linkColorHover;
           .mixin(@mainColor,20%);
@@ -505,11 +511,12 @@ img{border-style:none;vertical-align: middle;}
               display: block;
               line-height: 1.6;
               .post-title {
-
+                color: @linkColor;
               }
               .post-cate {
                 margin-left: 10px;
                 white-space: nowrap;
+                color: #555;
               }
               .post-tag {
                 margin-left: 4px;

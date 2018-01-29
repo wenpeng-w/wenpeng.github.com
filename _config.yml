@@ -41,7 +41,7 @@ github_username: wenpeng-w
 
 # Build settings
 paginate: 3
-paginate_path: /page/:num/
+paginate_path: page/:num
 permalink: /:year/:month/:day/:title/
 markdown: kramdown
 plugins:
