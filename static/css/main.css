@@ -10,7 +10,7 @@ img{border-style:none;vertical-align:middle}
 .clx:after{content:'.';display:block;clear:both;overflow:hidden;visibility:hidden;font-size:0;line-height:0;width:0;height:0}
 .clx{zoom:1}
 .highlight code{font-family:Arial;line-height:1.6}
-.grid-row{position:relative;margin:auto}
+.grid-row{position:relative;margin:0 auto}
 .grid-row:after{content:".";display:block;height:0;clear:both;visibility:hidden}
 .grid-row .grid-col_6_1,.grid-row .grid-col_6_2,.grid-row .grid-col_6_3,.grid-row .grid-col_6_4,.grid-row .grid-col_6_5,.grid-row .grid-col_6_6{float:left;padding-left:15px;padding-right:15px;box-sizing:border-box}
 .grid-row .grid-col_6_1{width:16.66667%}
@@ -50,9 +50,10 @@ img{border-style:none;vertical-align:middle}
 .footer{width:100%;padding:20px 0}
 .footer .footer-content{text-align:center;color:#999;font-size:13px}
 .footer .footer-content p{line-height:1.6}
+.footer .footer-content span{white-space:nowrap}
 .footer .footer-content .author-link{color:#666}
 .footer .footer-content .author-link:hover{text-decoration:underline}
-.post-wrap{position:relative;margin:40px 0}
+.post-wrap{position:relative;margin-top:40px}
 .post-wrap .post-list{margin-top:20px}
 .post-wrap .post-list .post-item{position:relative;margin-bottom:15px;padding-bottom:15px;border-bottom:1px solid #f1f1f1}
 .post-item .post-img{position:absolute;top:0;right:0;width:120px;height:107px;border-radius:2px;overflow:hidden}
@@ -87,7 +88,7 @@ img{border-style:none;vertical-align:middle}
 .page-prev-and-next .page-next,.page-prev-and-next .page-prev{width:50%;overflow:hidden;text-overflow:ellipsis}
 .page-prev-and-next .page-prev{float:right;text-align:right}
 .page-prev-and-next .page-next{float:left}
-.side-bar{width:100%;min-height:400px;margin:40px 0}
+.side-bar{width:100%;margin-top:40px}
 .block-panel{margin-bottom:25px}
 .block-panel .block-panel-title{padding-bottom:2px}
 .block-panel .block-panel-title.bd-b{border-bottom:1px solid #ddd}
@@ -98,7 +99,7 @@ img{border-style:none;vertical-align:middle}
 .categories-wrap .categories .cate-list .num{margin-left:6px;padding:0 6px;border-radius:8px;background-color:#eee;color:#888}
 .tag-wrap .tag .tag-item{display:inline-block;height:22px;line-height:22px;padding:0 10px;margin:10px 8px 0 0;border:1px solid #333;border-radius:12px;font-size:13px;color:#333}
 .tag-wrap .tag .tag-item:hover{background-color:rgba(0,0,0,.1);color:#000}
-.archives-page .archives-list{margin:40px auto}
+.archives-page .archives-list{margin:40px 0 25px 0}
 .archives-page .archives-list .year-title{margin-top:20px}
 .archives-page .archives-list .year-arc-item{height:46px;line-height:46px}
 .archives-page .archives-list .year-arc-item .art-link{height:inherit;display:block;position:relative;padding-right:150px;border-bottom:1px solid #f1f1f1;transition:all .3s linear}
@@ -113,4 +114,3 @@ img{border-style:none;vertical-align:middle}
 .categories-page .category .categ-item .categ-item-list .categ-item-li .post-title:hover{color:#000;text-decoration:underline}
 .categories-page .category .categ-item .categ-item-list .categ-item-li .post-tag{padding:2px 6px;margin-right:4px;background-color:#eee;border-radius:2px;color:#4d4d4c;font-size:12px;white-space:nowrap}
 .categories-page .category .categ-item .categ-item-list .categ-item-li .date{position:absolute;top:0;right:0;color:#888}
-.archives-page .side-bar,.article-page .side-bar,.categories-page .side-bar,.home-page .side-bar{padding-left:40px}

@@ -34,7 +34,7 @@ img{border-style:none;vertical-align: middle;}
   line-height: 1.6;
 }
 
-.grid-row{position:relative;margin:auto}
+.grid-row{position:relative;margin:0 auto}
 .grid-row:after{content:".";display:block;height:0;clear:both;visibility:hidden}
 .grid-row .grid-col_6_1,.grid-row .grid-col_6_2,.grid-row .grid-col_6_3,.grid-row .grid-col_6_4,.grid-row .grid-col_6_5,.grid-row .grid-col_6_6{float:left;padding-left:15px;padding-right:15px;box-sizing:border-box}
 .grid-row .grid-col_6_1{width:16.66667%}
@@ -118,6 +118,9 @@ img{border-style:none;vertical-align: middle;}
     p {
       line-height: 1.6;
     }
+    span {
+      white-space: nowrap;
+    }
     .author-link {
       color: #666;
       &:hover {
@@ -130,7 +133,7 @@ img{border-style:none;vertical-align: middle;}
 // 文章列表
 .post-wrap {
   position: relative;
-  margin: 40px 0;
+  margin-top: 40px;
 }
 .post-wrap .post-list {
   margin-top: 20px;
@@ -210,7 +213,6 @@ img{border-style:none;vertical-align: middle;}
   overflow: hidden;
     .page-run {
       display: block;
-
       height: 32px;
       line-height: 32px;
       text-align: center;
@@ -298,8 +300,7 @@ img{border-style:none;vertical-align: middle;}
 // Sidebar
 .side-bar {
   width: 100%;
-  min-height: 400px;
-  margin: 40px 0;
+  margin-top: 40px;
 }
 .block-panel {
   margin-bottom: 25px;
@@ -376,7 +377,7 @@ img{border-style:none;vertical-align: middle;}
 /* 日志归档 */
 .archives-page {
   .archives-list {
-    margin: 40px auto;
+    margin: 40px 0 25px 0;
     .year-title{
       margin-top: 20px;
     }
@@ -466,7 +467,7 @@ img{border-style:none;vertical-align: middle;}
 
 .home-page, .archives-page, .categories-page, .article-page {
   .side-bar {
-    padding-left: 40px;
+    //padding-left: 40px;
   }
 }
 

@@ -1,6 +1,19 @@
 {
-  "name": "yiwen",
+  "name": "yiwen_blog",
   "version": "1.0.0",
+  "description": "yiwen blog",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wenpeng-w/yiwen.git"
+  },
+  "keywords": [
+    "yiwen",
+    "blog"
+  ],
   "author": "Yiwen",
   "license": "ISC",
   "devDependencies": {
