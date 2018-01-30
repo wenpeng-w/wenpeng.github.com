@@ -9,6 +9,21 @@
         return Math.floor(Math.random() * (upper - lower)) + lower;
     }
 
+    //返回顶部
+    var backTop = $("#back_top");
+    $(document).scroll(function(){
+        var scrollTop = $(document).scrollTop() || $("body").scrollTop(),
+            showHeight = 800;
+        if(scrollTop>showHeight){
+            backTop.removeClass("t-hide");
+        }else {
+            backTop.addClass("t-hide");
+        }
+    });
+    backTop.on("click",function(){
+        $('html,body').animate({scrollTop:0},400);
+        return false;
+    });
     // 手机端头部导航
     $('#nav_btn').on('click', function () {
         sliderToggle();
@@ -21,14 +36,12 @@
     });
     var isShow = false;
     function sliderToggle () {
-        $('#nav').fadeToggle(400);
+        $('#nav_mask').fadeToggle(400);
         if (isShow) {
-            $('#nav_list').animate({ 'right': '-70%' }, 300);
-            $('html body').css('overflow','auto');
+            $('#nav').css({ 'right': '-70%' });
 
         } else {
-            $('#nav_list').animate({ 'right': '0' }, 300);
-            $('html body').css('overflow','hidden');
+            $('#nav').css({ 'right': '0' });
         }
         isShow = !isShow;
     }

@@ -5,27 +5,14 @@
                 <div class="logo">
                     <a href="/">一文</a>
                 </div>
-                <div id="nav_btn" class="nav-button">
-                    <span class="nav-btn-icon"></span>
-                </div>
-                <div class="nav pc-nav">
-                    <ul class="nav-list">
-                        {% for nav in site.navs %}
-                        {% if nav.url == page.link %}
-                        <li class="nav-item active">
-                            <a class="nav-name" href="{{ nav.url }}"><span class="{{ nav.title }}-icon"></span>{{ nav.name }}</a>
-                        </li>
-                        {% else %}
-                        <li class="nav-item">
-                            <a class="nav-name" href="{{ nav.url }}"><span class="{{ nav.title }}-icon"></span>{{ nav.name }}</a>
-                        </li>
-                        {% endif %}
-                        {% endfor %}
-                    </ul>
-                </div>
-                <div id="nav" class="nav m-nav">
-                    <ul id="nav_list" class="nav-list">
-                        {% for nav in site.navs %}
+                <div class="nav-wrap">
+                    <div id="nav_btn" class="nav-button">
+                        <span class="nav-btn-icon iconfont icon-nav"></span>
+                    </div>
+                    <divid id="nav_mask" class="nav-mask"></divid>
+                    <div id="nav" class="nav">
+                        <ul id="nav_list" class="nav-list">
+                            {% for nav in site.navs %}
                             {% if nav.url == page.link %}
                             <li class="nav-item active">
                                 <a class="nav-name" href="{{ nav.url }}"><span class="{{ nav.title }}-icon"></span>{{ nav.name }}</a>
@@ -35,13 +22,12 @@
                                 <a class="nav-name" href="{{ nav.url }}"><span class="{{ nav.title }}-icon"></span>{{ nav.name }}</a>
                             </li>
                             {% endif %}
-                        {% endfor %}
-                        <li class="last-li">
-                            <div id="nav_btn_close" class="nav-btn-close">
-                                <span class="nav-btn-close-icon">×</span>
-                            </div>
-                        </li>
-                    </ul>
+                            {% endfor %}
+                        </ul>
+                        <div id="nav_btn_close" class="nav-btn-close">
+                            <span class="nav-btn-close-icon">×</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
