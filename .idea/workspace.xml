@@ -29,8 +29,8 @@
       <file leaf-file-name="main.less" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/less/main.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="543" column="46" lean-forward="true" selection-start-line="543" selection-start-column="46" selection-end-line="543" selection-end-column="46" />
+            <state relative-caret-position="23">
+              <caret line="543" column="39" lean-forward="false" selection-start-line="543" selection-start-column="39" selection-end-line="543" selection-end-column="39" />
               <folding>
                 <element signature="e#1055#2928#1" expanded="true" />
                 <element signature="e#4683#4799#0" expanded="false" />
@@ -74,11 +74,11 @@
                 <element signature="e#10838#11296#0" expanded="false" />
                 <element signature="e#11326#12033#0" expanded="false" />
                 <element signature="e#12051#12407#0" expanded="false" />
-                <element signature="e#13304#13390#0" expanded="false" />
-                <element signature="e#13418#14379#0" expanded="false" />
-                <element signature="e#13472#14373#0" expanded="false" />
-                <element signature="e#14401#16270#0" expanded="false" />
-                <element signature="e#14455#15027#0" expanded="false" />
+                <element signature="e#13309#13395#0" expanded="false" />
+                <element signature="e#13423#14384#0" expanded="false" />
+                <element signature="e#13477#14378#0" expanded="false" />
+                <element signature="e#14406#16275#0" expanded="false" />
+                <element signature="e#14460#15032#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -317,12 +317,12 @@
       <updated>1516712818664</updated>
       <workItem from="1516712820860" duration="63579000" />
       <workItem from="1516962978490" duration="38973000" />
-      <workItem from="1517065673069" duration="67501000" />
+      <workItem from="1517065673069" duration="67607000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="170053000" />
+    <option name="totallyTimeSpent" value="170159000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -789,8 +789,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/less/main.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="543" column="46" lean-forward="true" selection-start-line="543" selection-start-column="46" selection-end-line="543" selection-end-column="46" />
+        <state relative-caret-position="23">
+          <caret line="543" column="39" lean-forward="false" selection-start-line="543" selection-start-column="39" selection-end-line="543" selection-end-column="39" />
           <folding>
             <element signature="e#1055#2928#1" expanded="true" />
             <element signature="e#4683#4799#0" expanded="false" />
@@ -834,11 +834,11 @@
             <element signature="e#10838#11296#0" expanded="false" />
             <element signature="e#11326#12033#0" expanded="false" />
             <element signature="e#12051#12407#0" expanded="false" />
-            <element signature="e#13304#13390#0" expanded="false" />
-            <element signature="e#13418#14379#0" expanded="false" />
-            <element signature="e#13472#14373#0" expanded="false" />
-            <element signature="e#14401#16270#0" expanded="false" />
-            <element signature="e#14455#15027#0" expanded="false" />
+            <element signature="e#13309#13395#0" expanded="false" />
+            <element signature="e#13423#14384#0" expanded="false" />
+            <element signature="e#13477#14378#0" expanded="false" />
+            <element signature="e#14406#16275#0" expanded="false" />
+            <element signature="e#14460#15032#0" expanded="false" />
           </folding>
         </state>
       </provider>
