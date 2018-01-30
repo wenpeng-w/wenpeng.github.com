@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8af341b-33f9-4ac8-a0db-ff21f9eb2794" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/icon.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/logo.png" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/_includes/header.html" afterPath="$PROJECT_DIR$/_includes/header.html" />
       <change beforePath="$PROJECT_DIR$/less/main.less" afterPath="$PROJECT_DIR$/less/main.less" />
-      <change beforePath="$PROJECT_DIR$/static/css/main.css" afterPath="$PROJECT_DIR$/static/css/main.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -34,8 +29,8 @@
       <file leaf-file-name="main.less" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/less/main.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="103" column="14" lean-forward="false" selection-start-line="103" selection-start-column="14" selection-end-line="103" selection-end-column="14" />
+            <state relative-caret-position="179">
+              <caret line="543" column="46" lean-forward="true" selection-start-line="543" selection-start-column="46" selection-end-line="543" selection-end-column="46" />
               <folding>
                 <element signature="e#1055#2928#1" expanded="true" />
                 <element signature="e#4683#4799#0" expanded="false" />
@@ -79,12 +74,11 @@
                 <element signature="e#10838#11296#0" expanded="false" />
                 <element signature="e#11326#12033#0" expanded="false" />
                 <element signature="e#12051#12407#0" expanded="false" />
-                <element signature="e#12435#13283#0" expanded="false" />
-                <element signature="e#13293#13379#0" expanded="false" />
-                <element signature="e#13407#14368#0" expanded="false" />
-                <element signature="e#13461#14362#0" expanded="false" />
-                <element signature="e#14390#16259#0" expanded="false" />
-                <element signature="e#14444#15016#0" expanded="false" />
+                <element signature="e#13304#13390#0" expanded="false" />
+                <element signature="e#13418#14379#0" expanded="false" />
+                <element signature="e#13472#14373#0" expanded="false" />
+                <element signature="e#14401#16270#0" expanded="false" />
+                <element signature="e#14455#15027#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -323,12 +317,12 @@
       <updated>1516712818664</updated>
       <workItem from="1516712820860" duration="63579000" />
       <workItem from="1516962978490" duration="38973000" />
-      <workItem from="1517065673069" duration="66625000" />
+      <workItem from="1517065673069" duration="67501000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="169177000" />
+    <option name="totallyTimeSpent" value="170053000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -795,8 +789,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/less/main.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="103" column="14" lean-forward="false" selection-start-line="103" selection-start-column="14" selection-end-line="103" selection-end-column="14" />
+        <state relative-caret-position="179">
+          <caret line="543" column="46" lean-forward="true" selection-start-line="543" selection-start-column="46" selection-end-line="543" selection-end-column="46" />
           <folding>
             <element signature="e#1055#2928#1" expanded="true" />
             <element signature="e#4683#4799#0" expanded="false" />
@@ -840,12 +834,11 @@
             <element signature="e#10838#11296#0" expanded="false" />
             <element signature="e#11326#12033#0" expanded="false" />
             <element signature="e#12051#12407#0" expanded="false" />
-            <element signature="e#12435#13283#0" expanded="false" />
-            <element signature="e#13293#13379#0" expanded="false" />
-            <element signature="e#13407#14368#0" expanded="false" />
-            <element signature="e#13461#14362#0" expanded="false" />
-            <element signature="e#14390#16259#0" expanded="false" />
-            <element signature="e#14444#15016#0" expanded="false" />
+            <element signature="e#13304#13390#0" expanded="false" />
+            <element signature="e#13418#14379#0" expanded="false" />
+            <element signature="e#13472#14373#0" expanded="false" />
+            <element signature="e#14401#16270#0" expanded="false" />
+            <element signature="e#14455#15027#0" expanded="false" />
           </folding>
         </state>
       </provider>
