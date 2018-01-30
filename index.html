@@ -23,7 +23,7 @@ title: 一文博客 - Yiwen
                                     <a class="name" href="{{ post.url }}">{{ post.title }}</a>
                                 </h2>
                                 <div class="post-desc">
-                                    {{ post.content | strip_html | truncate:140 }}
+                                    {{ post.content | strip_html | truncate:60 }}
                                 </div>
                                 <div class="post-meta">
                                     <span>{{ post.date | date: "%Y-%m-%d" }}</span>
