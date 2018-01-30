@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8af341b-33f9-4ac8-a0db-ff21f9eb2794" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/_includes/header.html" afterPath="$PROJECT_DIR$/_includes/header.html" />
       <change beforePath="$PROJECT_DIR$/less/main.less" afterPath="$PROJECT_DIR$/less/main.less" />
       <change beforePath="$PROJECT_DIR$/static/css/main.css" afterPath="$PROJECT_DIR$/static/css/main.css" />
     </list>
@@ -31,8 +30,8 @@
       <file leaf-file-name="main.less" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/less/main.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="157" column="23" lean-forward="true" selection-start-line="157" selection-start-column="23" selection-end-line="157" selection-end-column="23" />
+            <state relative-caret-position="-143">
+              <caret line="194" column="14" lean-forward="true" selection-start-line="194" selection-start-column="14" selection-end-line="194" selection-end-column="14" />
               <folding>
                 <element signature="e#1047#2920#1" expanded="true" />
                 <element signature="e#4918#5005#0" expanded="false" />
@@ -313,12 +312,12 @@
       <updated>1516712818664</updated>
       <workItem from="1516712820860" duration="63579000" />
       <workItem from="1516962978490" duration="38973000" />
-      <workItem from="1517065673069" duration="69270000" />
+      <workItem from="1517065673069" duration="69394000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="171822000" />
+    <option name="totallyTimeSpent" value="171946000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -785,8 +784,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/less/main.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="157" column="23" lean-forward="true" selection-start-line="157" selection-start-column="23" selection-end-line="157" selection-end-column="23" />
+        <state relative-caret-position="-143">
+          <caret line="194" column="14" lean-forward="true" selection-start-line="194" selection-start-column="14" selection-end-line="194" selection-end-column="14" />
           <folding>
             <element signature="e#1047#2920#1" expanded="true" />
             <element signature="e#4918#5005#0" expanded="false" />
