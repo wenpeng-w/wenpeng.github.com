@@ -27,13 +27,12 @@ title: Yiwen
 SEOTitle: 一文博客 - Yiwen
 email: 449202631@qq.com
 keywords: 一文博客，前端工程师，womenl.cn
-description: 一文博客是 Yiwen 的个人博客，记录和分享在前端的点滴成长，前端技术，NodeJS，也希望能够认识许多的技术大咖。
+description: 一文博客是 Yiwen 的个人博客，记录和分享在前端的点滴成长，前端技术，NodeJS。
 # this means to ignore newlines until "baseurl:"
 #  Write an awesome description for your new site here. You can edit this
 # line in _config.yml. It will appear in your document head meta (for
 # Google search results) and in your feed.xml site description.
 baseurl: "http://www.womenl.cn"
-
 # the subpath of your site, e.g. /blog
 url: "http://127.0.0.1:4000"
 # the base hostname & protocol for your site, e.g. http://example.com
@@ -56,10 +55,10 @@ __IMG__: "/static/images"
 
 # page navigation
 navs:
-  - {name: 首页, title: home, url: ""}
-  - {name: 日志归档, title: archives, url: "archives/"}
-  - {name: 分类, title: categories, url: "categories/"}
-  - {name: 关于我, title: about, url: "about/"}
+  - {name: 首页, title: home, url: "/"}
+  - {name: 日志归档, title: archives, url: "/archives/"}
+  - {name: 分类, title: categories, url: "/categories/"}
+  - {name: 关于我, title: about, url: "/about/"}
 # Exclude from processing.
 
 # The following items will not be processed, by default. Create a custom list

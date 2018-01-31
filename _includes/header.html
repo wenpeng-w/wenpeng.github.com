@@ -15,11 +15,11 @@
                             {% for nav in site.navs %}
                             {% if nav.url == page.link %}
                             <li class="nav-item active">
-                                <a class="nav-name" href="{{ site.baseurl }}/{{ nav.url }}"><span class="{{ nav.title }}-icon"></span>{{ nav.name }}</a>
+                                <a class="nav-name" href="{{ site.baseurl }}{{ nav.url }}"><span class="{{ nav.title }}-icon"></span>{{ nav.name }}</a>
                             </li>
                             {% else %}
                             <li class="nav-item">
-                                <a class="nav-name" href="{{ site.baseurl }}/{{ nav.url }}"><span class="{{ nav.title }}-icon"></span>{{ nav.name }}</a>
+                                <a class="nav-name" href="{{ site.baseurl }}{{ nav.url }}"><span class="{{ nav.title }}-icon"></span>{{ nav.name }}</a>
                             </li>
                             {% endif %}
                             {% endfor %}

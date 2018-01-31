@@ -1,6 +1,6 @@
 ---
 layout: default
-link: ""
+link: "/"
 title: 一文博客 - Yiwen
 ---
     <div class="home-page">
@@ -64,10 +64,10 @@ title: 一文博客 - Yiwen
                         {% if paginator.total_pages > 1 %}
                         <div class="pagination clx">
                             {% if paginator.previous_page %}
-                            <a class="page-run previous" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&lt; 上一页</a>
+                            <a class="page-run previous" href="{{ paginator.previous_page_path | replace: '//', '/' }}">&lt; 上一页</a>
                             {% endif %}
                             {% if paginator.next_page %}
-                            <a class="page-run next" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">下一页 &gt;</a>
+                            <a class="page-run next" href="{{ paginator.next_page_path | replace: '//', '/' }}">下一页 &gt;</a>
                             {% endif %}
                         </div>
                         {% endif %}
