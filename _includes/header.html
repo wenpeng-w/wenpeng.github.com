@@ -3,7 +3,7 @@
         <div class="grid-row header-wrap">
             <div class="grid-col_6_6 header-content clx">
                 <div class="logo">
-                    <a href="{{ site.baseurl }}"><img src="{{ site.__IMG__ }}/logo.png" alt="一文博客"></a>
+                    <a href="/"><img src="{{ site.__IMG__ }}/logo.png" alt="一文博客"></a>
                 </div>
                 <div class="nav-wrap">
                     <div id="nav_btn" class="nav-button">
@@ -15,11 +15,11 @@
                             {% for nav in site.navs %}
                             {% if nav.url == page.link %}
                             <li class="nav-item active">
-                                <a class="nav-name" href="{{ site.baseurl }}{{ nav.url }}"><span class="{{ nav.title }}-icon"></span>{{ nav.name }}</a>
+                                <a class="nav-name" href="{{ nav.url }}"><span class="{{ nav.title }}-icon"></span>{{ nav.name }}</a>
                             </li>
                             {% else %}
                             <li class="nav-item">
-                                <a class="nav-name" href="{{ site.baseurl }}{{ nav.url }}"><span class="{{ nav.title }}-icon"></span>{{ nav.name }}</a>
+                                <a class="nav-name" href="{{ nav.url }}"><span class="{{ nav.title }}-icon"></span>{{ nav.name }}</a>
                             </li>
                             {% endif %}
                             {% endfor %}

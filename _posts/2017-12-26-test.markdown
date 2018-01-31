@@ -5,7 +5,6 @@ date:   2017-12-26 08:32:40 +0800
 categories: 生活
 tags: 上海
 author: Yiwen
-post-img: "http://img.hb.aicdn.com/1cd340b1ecf3e18a4b6be569bc53796bebd0792943f42-jXYqeA_fw658"
 ---
 
 - 2018年1月26日

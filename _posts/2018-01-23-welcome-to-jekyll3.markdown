@@ -4,8 +4,10 @@ title:  "VueJS 2.0 的API更新"
 date:   2018-01-26 08:32:40 +0800
 categories: 框架
 tags: Vue
+post-img: "http://oq3m63ave.bkt.clouddn.com/0618/Vuejs1.png"
 author: Yiwen
 ---
+![VueJS](http://oq3m63ave.bkt.clouddn.com/0618/Vuejs1.png)
 ##### 1.组件模板
 
 - 必须有一个根元素，包住所有的元素
