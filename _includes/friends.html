@@ -1,0 +1,11 @@
+<!-- 友链 -->
+<div class="friends-wrap block-panel">
+    <div class="block-panel-title">
+        <h3 class="name">友链</h3>
+    </div>
+    <div class="friends-link">
+        {% for friend in site.friends %}
+        <a class="link-item" href="{{ friend.url }}" target="_blank" rel="nofollow">{{ friend.name }}</a>
+        {% endfor %}
+    </div>
+</div>
