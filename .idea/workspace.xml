@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8af341b-33f9-4ac8-a0db-ff21f9eb2794" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/_includes/friends.html" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
-      <change beforePath="$PROJECT_DIR$/about.html" afterPath="$PROJECT_DIR$/about.html" />
-      <change beforePath="$PROJECT_DIR$/archives.html" afterPath="$PROJECT_DIR$/archives.html" />
-      <change beforePath="$PROJECT_DIR$/categories.html" afterPath="$PROJECT_DIR$/categories.html" />
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change beforePath="$PROJECT_DIR$/less/main.less" afterPath="$PROJECT_DIR$/less/main.less" />
-      <change beforePath="$PROJECT_DIR$/static/css/main.css" afterPath="$PROJECT_DIR$/static/css/main.css" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/iconfont.eot" afterPath="$PROJECT_DIR$/static/fonts/iconfont.eot" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/iconfont.svg" afterPath="$PROJECT_DIR$/static/fonts/iconfont.svg" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/iconfont.ttf" afterPath="$PROJECT_DIR$/static/fonts/iconfont.ttf" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/iconfont.woff" afterPath="$PROJECT_DIR$/static/fonts/iconfont.woff" />
+      <change beforePath="$PROJECT_DIR$/_includes/header.html" afterPath="$PROJECT_DIR$/_includes/header.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -48,13 +36,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.less" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/less/main.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
+            <state relative-caret-position="3856">
               <caret line="729" column="14" lean-forward="false" selection-start-line="729" selection-start-column="14" selection-end-line="729" selection-end-column="14" />
               <folding>
-                <element signature="e#856#4302#0" expanded="false" />
                 <element signature="e#4313#4469#0" expanded="false" />
                 <element signature="e#5957#6187#0" expanded="false" />
                 <element signature="e#6200#6287#0" expanded="false" />
@@ -107,6 +94,16 @@
                 <element signature="e#15913#16485#0" expanded="false" />
                 <element signature="e#17754#18049#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_includes/header.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="27" column="69" lean-forward="true" selection-start-line="27" selection-start-column="69" selection-end-line="27" selection-end-column="69" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -165,7 +162,6 @@
         <option value="$PROJECT_DIR$/tags.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/_includes/head.html" />
-        <option value="$PROJECT_DIR$/_includes/header.html" />
         <option value="$PROJECT_DIR$/_posts/2017-12-26-test.markdown" />
         <option value="$PROJECT_DIR$/_posts/2018-01-23-welcome-to-jekyll3.markdown" />
         <option value="$PROJECT_DIR$/categories.html" />
@@ -175,6 +171,7 @@
         <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/_includes/friends.html" />
         <option value="$PROJECT_DIR$/less/main.less" />
+        <option value="$PROJECT_DIR$/_includes/header.html" />
       </list>
     </option>
   </component>
@@ -283,12 +280,12 @@
       <updated>1516712818664</updated>
       <workItem from="1516712820860" duration="63579000" />
       <workItem from="1516962978490" duration="38973000" />
-      <workItem from="1517065673069" duration="93725000" />
+      <workItem from="1517065673069" duration="94390000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="196277000" />
+    <option name="totallyTimeSpent" value="196942000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -699,14 +696,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-286">
-          <caret line="1" column="23" lean-forward="false" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/footer.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
@@ -805,10 +794,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/less/main.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
+        <state relative-caret-position="3856">
           <caret line="729" column="14" lean-forward="false" selection-start-line="729" selection-start-column="14" selection-end-line="729" selection-end-column="14" />
           <folding>
-            <element signature="e#856#4302#0" expanded="false" />
             <element signature="e#4313#4469#0" expanded="false" />
             <element signature="e#5957#6187#0" expanded="false" />
             <element signature="e#6200#6287#0" expanded="false" />
@@ -861,6 +849,14 @@
             <element signature="e#15913#16485#0" expanded="false" />
             <element signature="e#17754#18049#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="27" column="69" lean-forward="true" selection-start-line="27" selection-start-column="69" selection-end-line="27" selection-end-column="69" />
+          <folding />
         </state>
       </provider>
     </entry>
