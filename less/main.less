@@ -703,7 +703,40 @@ img{border-style:none;vertical-align: middle;}
   }
 }
 
-
+/* 关于 */
+.about-content {
+  margin: 40px 0 25px 0;
+  color: #555;
+  .about-title {
+    margin-bottom: 10px;
+    font-size: 24px;
+  }
+  .about-title-small {
+    margin: 15px 0 10px 0;
+  }
+  p {
+    line-height: 1.8;
+    margin-bottom: 10px;
+    a {
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+.contact-panel {
+  width: 100%;
+  margin-top: 40px;
+  .avatar {
+    margin-top: 15px;
+    text-align: center;
+    img {
+      display: inline-block;
+      width: 65%;
+      border-radius: 6px;
+    }
+  }
+}
 @media screen and (min-width:951px){
   .home-page, .archives-page, .categories-page, .article-page {
     .side-bar {
