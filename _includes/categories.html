@@ -3,7 +3,7 @@
         <div class="block-panel-title">
             <h3 class="name">分类目录</h3>
         </div>
-        <ul class="categories">
+        <ul id="categ" class="categories">
            {% for cate in site.categories %}
             <li class="cate-list">
                <span class="dot"></span><a class="name" href="/categories/#{{ cate[0] }}">{{ cate[0] }}</a><span class="num">{{ cate[1].size }}</span>

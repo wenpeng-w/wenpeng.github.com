@@ -7,7 +7,7 @@ title: 一文博客 - Yiwen | 文章标签
 <div class="tags-page">
     <div class=" grid-row tags-wrap">
         <div class="grid-col_6_6 block-panel">
-            <div class="tags-head clx">
+            <div id="tags" class="tags-head clx">
                 {% for tag in site.tags %}
                 <a class="tags-title" href="/tags/#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">{{ tag[0] }}</a>
                 {% endfor %}
