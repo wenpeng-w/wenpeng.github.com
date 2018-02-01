@@ -8,7 +8,6 @@
     function random (lower, upper) {
         return Math.floor(Math.random() * (upper - lower)) + lower;
     }
-    random(1,100);
     //返回顶部
     var backTop = $("#back_top");
     $(document).scroll(function(){
