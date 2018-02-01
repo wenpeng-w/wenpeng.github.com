@@ -1,14 +1,14 @@
 (function ($) {
     /**
+     * update: 2018/02/01
      * 产生随机数
      * @param int lower 最小数
      * @param int upper 最大数
-     *
      */
     function random (lower, upper) {
         return Math.floor(Math.random() * (upper - lower)) + lower;
     }
-
+    random(1,100);
     //返回顶部
     var backTop = $("#back_top");
     $(document).scroll(function(){
