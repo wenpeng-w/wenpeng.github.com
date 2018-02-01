@@ -7,6 +7,7 @@
 // 载入gulp核心包
 var gulp = require('gulp'),
     less = require('gulp-less'),
+    autoprefixer = require('gulp-autoprefixer'),
     cssMinify = require('gulp-clean-css'),
     rename = require('gulp-rename'),
     jsMinfy = require('gulp-uglify'),
@@ -15,6 +16,19 @@ var gulp = require('gulp'),
 // 新建 less 的任务
 gulp.task('less', function () {
     gulp.src('less/*.less')
+        .pipe(less())
+        .pipe(autoprefixer({
+            browsers: ['last 2 versions', 'Android >= 4.0'],
+            cascade: true, //是否美化属性值(css3) 默认：true
+            remove:true //是否去掉不必要的前缀 默认：true
+        }))
+        .pipe(gulp.dest('static/css'))
+        .pipe(browserSync.reload({
+            stream: true
+        }));
+});
+gulp.task('mincss', function () {
+    gulp.src(['static/css/main.css', '!static/css/*.min.css'])
         .pipe(less())
         .pipe(rename({suffix: '.min'}))
         .pipe(cssMinify({
@@ -27,7 +41,6 @@ gulp.task('less', function () {
             stream: true
         }));
 });
-
 // 新建 js 的任务
 gulp.task('minjs', function () {
     gulp.src(['static/js/*.js', '!static/js/*.min.js'])
@@ -40,7 +53,7 @@ gulp.task('minjs', function () {
 });
 
 gulp.task('serve', function () {
-    gulp.start('less', 'minjs');
+    gulp.start('mincss', 'less', 'minjs');
     browserSync.init({
         //指定服务器启动根目录
         server: {
@@ -51,6 +64,7 @@ gulp.task('serve', function () {
         port: 3131,
         open: false
     });
+    gulp.watch('less/*.less', ['mincss']);
     gulp.watch('less/*.less', ['less']);
     gulp.watch('static/js/*.js', ['minjs']);
 });
