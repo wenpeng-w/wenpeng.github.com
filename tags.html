@@ -6,7 +6,7 @@ title: 一文博客 - Yiwen | 文章标签
 
 <div class="tags-page">
     <div class=" grid-row tags-wrap">
-        <div class="grid-col_6_6 block-panel">
+        <div class="grid-col_6_4 block-panel">
             <div id="tags" class="tags-head clx">
                 {% for tag in site.tags %}
                 <a class="tags-title" href="/tags/#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">{{ tag[0] }}</a>
@@ -40,6 +40,13 @@ title: 一文博客 - Yiwen | 文章标签
                     </ul>
                 </div>
                 {% endfor %}
+            </div>
+        </div>
+        <div class="grid-col_6_2 side-bar">
+            {% include categories.html %}
+            {% include friends.html %}
+            <div class="pic-panel">
+                <img src="http://p3ethm2oh.bkt.clouddn.com/yiwen/pic_01.jpg" alt="PIC">
             </div>
         </div>
     </div>
