@@ -2,16 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8af341b-33f9-4ac8-a0db-ff21f9eb2794" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/about.html" afterPath="$PROJECT_DIR$/about.html" />
-      <change beforePath="$PROJECT_DIR$/archives.html" afterPath="$PROJECT_DIR$/archives.html" />
-      <change beforePath="$PROJECT_DIR$/categories.html" afterPath="$PROJECT_DIR$/categories.html" />
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change beforePath="$PROJECT_DIR$/static/css/main.min.css" afterPath="$PROJECT_DIR$/static/css/main.min.css" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/iconfont.eot" afterPath="$PROJECT_DIR$/static/fonts/iconfont.eot" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/iconfont.svg" afterPath="$PROJECT_DIR$/static/fonts/iconfont.svg" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/iconfont.ttf" afterPath="$PROJECT_DIR$/static/fonts/iconfont.ttf" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/iconfont.woff" afterPath="$PROJECT_DIR$/static/fonts/iconfont.woff" />
       <change beforePath="$PROJECT_DIR$/tags.html" afterPath="$PROJECT_DIR$/tags.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -39,8 +29,8 @@
       <file leaf-file-name="tags.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tags.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="45" column="41" lean-forward="false" selection-start-line="45" selection-start-column="41" selection-end-line="45" selection-end-column="41" />
+            <state relative-caret-position="182">
+              <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
@@ -324,12 +314,12 @@
       <updated>1516712818664</updated>
       <workItem from="1516712820860" duration="63579000" />
       <workItem from="1516962978490" duration="38973000" />
-      <workItem from="1517065673069" duration="125223000" />
+      <workItem from="1517065673069" duration="125672000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="227775000" />
+    <option name="totallyTimeSpent" value="228224000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -904,8 +894,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tags.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="45" column="41" lean-forward="false" selection-start-line="45" selection-start-column="41" selection-end-line="45" selection-end-column="41" />
+        <state relative-caret-position="182">
+          <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
           <folding>
             <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
