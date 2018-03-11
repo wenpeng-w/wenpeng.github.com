@@ -26,13 +26,13 @@
 title: Yiwen
 SEOTitle: 一文博客 - Yiwen
 email: 449202631@qq.com
-keywords: 一文博客，前端工程师，womenl.cn
+keywords: 一文博客，前端工程师，yiwenl，yiwenl.cn
 description: 一文博客, Yiwen 的个人博客，记录和分享在前端的点滴成长，前端技术，NodeJS。
 # this means to ignore newlines until "baseurl:"
 #  Write an awesome description for your new site here. You can edit this
 # line in _config.yml. It will appear in your document head meta (for
 # Google search results) and in your feed.xml site description.
-# baseurl: "http://www.womenl.cn"
+# baseurl: "http://www.yiwenl.cn"
 # the subpath of your site, e.g. /blog
 url: "http://127.0.0.1:4000"
 # the base hostname & protocol for your site, e.g. http://example.com
