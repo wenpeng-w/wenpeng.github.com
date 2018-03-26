@@ -34,13 +34,13 @@ description: 一文博客, Yiwen 的个人博客，记录和分享在前端的�
 # Google search results) and in your feed.xml site description.
 # baseurl: "http://www.yiwenl.cn"
 # the subpath of your site, e.g. /blog
-url: "http://127.0.0.1:4000"
+url: "http://www.yiwenl.cn"
 # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 github_username: wenpeng-w
 
 # Build settings
-paginate: 3
+paginate: 10
 paginate_path: page/:num
 permalink: /:year/:month/:day/:title/
 markdown: kramdown
