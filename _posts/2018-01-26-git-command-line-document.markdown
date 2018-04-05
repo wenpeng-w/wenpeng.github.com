@@ -17,6 +17,15 @@ author: Yiwen
     git checkout <name>
     git checkout -b <name>
     
+    // 删除本地分支
+    git branch -d <name>
+    
+    // 删除 github 上的远程分支
+    git push origin :<name>
+    
+    // 提交本地分支到 github 远程分支，没有远程分支会自动创建
+    git push origin <本地分支名称>:<远程分支名称>
+    
     // 合并分支到当前分支
     git merge <name>
      
