@@ -76,10 +76,10 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/static/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="83" column="36" lean-forward="true" selection-start-line="83" selection-start-column="36" selection-end-line="83" selection-end-column="36" />
+            <state relative-caret-position="625">
+              <caret line="63" column="6" lean-forward="false" selection-start-line="63" selection-start-column="6" selection-end-line="63" selection-end-column="6" />
               <folding>
-                <element signature="e#367#621#0" expanded="false" />
+                <element signature="e#1059#1275#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -353,12 +353,12 @@
       <workItem from="1522906872699" duration="18000" />
       <workItem from="1523235608444" duration="5852000" />
       <workItem from="1523673587520" duration="2380000" />
-      <workItem from="1523775842576" duration="4678000" />
+      <workItem from="1523775842576" duration="4790000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="250809000" />
+    <option name="totallyTimeSpent" value="250921000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -782,10 +782,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/static/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="83" column="36" lean-forward="true" selection-start-line="83" selection-start-column="36" selection-end-line="83" selection-end-column="36" />
+        <state relative-caret-position="625">
+          <caret line="63" column="6" lean-forward="false" selection-start-line="63" selection-start-column="6" selection-end-line="63" selection-end-column="6" />
           <folding>
-            <element signature="e#367#621#0" expanded="false" />
+            <element signature="e#1059#1275#0" expanded="false" />
           </folding>
         </state>
       </provider>
