@@ -43,8 +43,8 @@
       <file leaf-file-name="main.less" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/less/main.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="18" column="47" lean-forward="false" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
+            <state relative-caret-position="182">
+              <caret line="19" column="37" lean-forward="false" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
               <folding>
                 <element signature="e#5701#5797#0" expanded="false" />
                 <element signature="e#5823#5847#0" expanded="false" />
@@ -318,16 +318,15 @@
       <workItem from="1523235608444" duration="5852000" />
       <workItem from="1523673587520" duration="2380000" />
       <workItem from="1523775842576" duration="7058000" />
-      <workItem from="1524302869059" duration="9479000" />
+      <workItem from="1524302869059" duration="10079000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="262668000" />
+    <option name="totallyTimeSpent" value="263268000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15029761" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -738,7 +737,7 @@
         <state relative-caret-position="143">
           <caret line="474" column="11" lean-forward="false" selection-start-line="474" selection-start-column="1" selection-end-line="474" selection-end-column="11" />
           <folding>
-            <element signature="e#1082#4307#1" expanded="true" />
+            <element signature="e#1119#4344#1" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -807,8 +806,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/less/main.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="18" column="47" lean-forward="false" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
+        <state relative-caret-position="182">
+          <caret line="19" column="37" lean-forward="false" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
           <folding>
             <element signature="e#5701#5797#0" expanded="false" />
             <element signature="e#5823#5847#0" expanded="false" />
