@@ -6,7 +6,7 @@
         <ul id="categ" class="categories">
            {% for cate in site.categories %}
             <li class="cate-list">
-               <span class="dot"></span><a class="name" href="/categories/#{{ cate[0] }}">{{ cate[0] }}</a><span class="num">{{ cate[1].size }}</span>
+               <span class="dot"></span><a class="name" href="/categories/#{{ cate[0] }}">{{ cate[0] }}</a><span class="num">({{ cate[1].size }})</span>
            </li>
             {% endfor %}
         </ul>

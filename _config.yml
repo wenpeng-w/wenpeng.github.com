@@ -56,8 +56,8 @@ __IMG__: "/static/images"
 # page navigation
 navs:
   - {name: 首页, title: home, url: "/"}
-  - {name: 日志归档, title: archives, url: "/archives/"}
-  - {name: 分类, title: categories, url: "/categories/"}
+  - {name: 文章归档, title: archives, url: "/archives/"}
+  - {name: 分类目录, title: categories, url: "/categories/"}
   - {name: 关于我, title: about, url: "/about/"}
 # Exclude from processing.
 
