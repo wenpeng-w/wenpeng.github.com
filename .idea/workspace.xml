@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d8af341b-33f9-4ac8-a0db-ff21f9eb2794" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-01-26-git-command-line-document.markdown" afterPath="$PROJECT_DIR$/_posts/2018-01-26-git-command-line-document.markdown" />
       <change beforePath="$PROJECT_DIR$/static/css/main.min.css" afterPath="$PROJECT_DIR$/static/css/main.min.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -31,11 +30,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.less" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.less" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/less/main.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="586" column="32" lean-forward="false" selection-start-line="586" selection-start-column="32" selection-end-line="586" selection-end-column="32" />
+            <state relative-caret-position="301">
+              <caret line="287" column="16" lean-forward="false" selection-start-line="287" selection-start-column="16" selection-end-line="287" selection-end-column="16" />
               <folding>
                 <element signature="e#6460#6556#0" expanded="false" />
                 <element signature="e#6582#6606#0" expanded="false" />
@@ -57,16 +56,16 @@
                 <element signature="e#11763#11902#0" expanded="false" />
                 <element signature="e#11929#11995#0" expanded="false" />
                 <element signature="e#12017#12069#0" expanded="false" />
-                <element signature="e#13283#13720#0" expanded="false" />
-                <element signature="e#16383#17337#0" expanded="false" />
-                <element signature="e#17355#17856#0" expanded="false" />
-                <element signature="e#17884#19293#0" expanded="false" />
-                <element signature="e#19304#19398#0" expanded="false" />
-                <element signature="e#19426#20971#0" expanded="false" />
-                <element signature="e#20993#23989#0" expanded="false" />
-                <element signature="e#24015#24399#0" expanded="false" />
-                <element signature="e#24416#25673#0" expanded="false" />
-                <element signature="e#25698#26064#0" expanded="false" />
+                <element signature="e#13283#13744#0" expanded="false" />
+                <element signature="e#16453#17407#0" expanded="false" />
+                <element signature="e#17425#17926#0" expanded="false" />
+                <element signature="e#17954#19363#0" expanded="false" />
+                <element signature="e#19374#19468#0" expanded="false" />
+                <element signature="e#19496#21041#0" expanded="false" />
+                <element signature="e#21063#24059#0" expanded="false" />
+                <element signature="e#24085#24469#0" expanded="false" />
+                <element signature="e#24486#25743#0" expanded="false" />
+                <element signature="e#25768#26134#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -134,12 +133,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2018-04-29-svn-（-tortoisesvn-ff09-guan-li-dai-7801-fen-zhi-he-bing.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2018-04-29-svn-（-tortoisesvn-ff09-guan-li-dai-7801-fen-zhi-he-bing.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2018-04-29-svn-（-tortoisesvn-ff09-guan-li-dai-7801-fen-zhi-he-bing.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="234">
-                <caret line="24" column="26" lean-forward="false" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+                <caret line="8" column="46" lean-forward="false" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -167,18 +166,6 @@
                 </folding>
               </first_editor>
               <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="categories.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/categories.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="20" column="44" lean-forward="false" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="44" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -212,6 +199,7 @@
       <find>link-item</find>
       <find>post-desc</find>
       <find>footer</find>
+      <find>page-run</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -220,7 +208,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/_layouts/posts.html" />
         <option value="$PROJECT_DIR$/static/js/mian.js" />
         <option value="$PROJECT_DIR$/less/main.less.css" />
@@ -269,8 +256,9 @@
         <option value="$PROJECT_DIR$/_posts/2018-04-29-SVN-管理代码-分支合并.md" />
         <option value="$PROJECT_DIR$/_posts/2018-04-29-管理代码分支合并.md" />
         <option value="$PROJECT_DIR$/_site/less/main.less" />
-        <option value="$PROJECT_DIR$/less/main.less" />
+        <option value="$PROJECT_DIR$/_site/2018/04/29/svn-tortoisesvn-ff09-guan-li-dai-7801-fen-zhi-he-bing/index.html" />
         <option value="$PROJECT_DIR$/_posts/2018-04-29-svn-（-tortoisesvn-ff09-guan-li-dai-7801-fen-zhi-he-bing.md" />
+        <option value="$PROJECT_DIR$/less/main.less" />
       </list>
     </option>
   </component>
@@ -316,16 +304,6 @@
             <path>
               <item name="yiwen" type="b2602c69:ProjectViewProjectNode" />
               <item name="yiwen" type="462c0819:PsiDirectoryNode" />
-              <item name="_layouts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yiwen" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yiwen" type="462c0819:PsiDirectoryNode" />
-              <item name="_posts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yiwen" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yiwen" type="462c0819:PsiDirectoryNode" />
               <item name="less" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -335,7 +313,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
@@ -391,12 +369,12 @@
       <workItem from="1524302869059" duration="10079000" />
       <workItem from="1524321450694" duration="3870000" />
       <workItem from="1524449285998" duration="18331000" />
-      <workItem from="1525003445417" duration="8342000" />
+      <workItem from="1525003445417" duration="11461000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="293811000" />
+    <option name="totallyTimeSpent" value="296930000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -411,14 +389,14 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27083334" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18675596" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293919" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6790541" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30574325" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.097972974" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -469,13 +447,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="24" column="38" lean-forward="false" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_site/tags/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -658,7 +629,7 @@
         <state relative-caret-position="520">
           <caret line="20" column="44" lean-forward="false" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="44" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -784,45 +755,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/less/main.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="586" column="32" lean-forward="false" selection-start-line="586" selection-start-column="32" selection-end-line="586" selection-end-column="32" />
-          <folding>
-            <element signature="e#6460#6556#0" expanded="false" />
-            <element signature="e#6582#6606#0" expanded="false" />
-            <element signature="e#6632#6656#0" expanded="false" />
-            <element signature="e#6726#6750#0" expanded="false" />
-            <element signature="e#6776#6800#0" expanded="false" />
-            <element signature="e#6826#6879#0" expanded="false" />
-            <element signature="e#6919#6966#0" expanded="false" />
-            <element signature="e#7006#7052#0" expanded="false" />
-            <element signature="e#7091#7365#0" expanded="false" />
-            <element signature="e#7404#7677#0" expanded="false" />
-            <element signature="e#7954#8049#0" expanded="false" />
-            <element signature="e#8320#8386#0" expanded="false" />
-            <element signature="e#8393#8417#0" expanded="false" />
-            <element signature="e#9087#9109#0" expanded="false" />
-            <element signature="e#9126#9148#0" expanded="false" />
-            <element signature="e#11570#11619#0" expanded="false" />
-            <element signature="e#11654#11740#0" expanded="false" />
-            <element signature="e#11763#11902#0" expanded="false" />
-            <element signature="e#11929#11995#0" expanded="false" />
-            <element signature="e#12017#12069#0" expanded="false" />
-            <element signature="e#13283#13720#0" expanded="false" />
-            <element signature="e#16383#17337#0" expanded="false" />
-            <element signature="e#17355#17856#0" expanded="false" />
-            <element signature="e#17884#19293#0" expanded="false" />
-            <element signature="e#19304#19398#0" expanded="false" />
-            <element signature="e#19426#20971#0" expanded="false" />
-            <element signature="e#20993#23989#0" expanded="false" />
-            <element signature="e#24015#24399#0" expanded="false" />
-            <element signature="e#24416#25673#0" expanded="false" />
-            <element signature="e#25698#26064#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2018-04-21-微信网页授权.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -899,14 +831,61 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_site/2018/04/29/svn-tortoisesvn-ff09-guan-li-dai-7801-fen-zhi-he-bing/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="102" column="0" lean-forward="true" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2018-04-29-svn-（-tortoisesvn-ff09-guan-li-dai-7801-fen-zhi-he-bing.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="234">
-            <caret line="24" column="26" lean-forward="false" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+            <caret line="8" column="46" lean-forward="false" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/main.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="287" column="16" lean-forward="false" selection-start-line="287" selection-start-column="16" selection-end-line="287" selection-end-column="16" />
+          <folding>
+            <element signature="e#6460#6556#0" expanded="false" />
+            <element signature="e#6582#6606#0" expanded="false" />
+            <element signature="e#6632#6656#0" expanded="false" />
+            <element signature="e#6726#6750#0" expanded="false" />
+            <element signature="e#6776#6800#0" expanded="false" />
+            <element signature="e#6826#6879#0" expanded="false" />
+            <element signature="e#6919#6966#0" expanded="false" />
+            <element signature="e#7006#7052#0" expanded="false" />
+            <element signature="e#7091#7365#0" expanded="false" />
+            <element signature="e#7404#7677#0" expanded="false" />
+            <element signature="e#7954#8049#0" expanded="false" />
+            <element signature="e#8320#8386#0" expanded="false" />
+            <element signature="e#8393#8417#0" expanded="false" />
+            <element signature="e#9087#9109#0" expanded="false" />
+            <element signature="e#9126#9148#0" expanded="false" />
+            <element signature="e#11570#11619#0" expanded="false" />
+            <element signature="e#11654#11740#0" expanded="false" />
+            <element signature="e#11763#11902#0" expanded="false" />
+            <element signature="e#11929#11995#0" expanded="false" />
+            <element signature="e#12017#12069#0" expanded="false" />
+            <element signature="e#13283#13744#0" expanded="false" />
+            <element signature="e#16453#17407#0" expanded="false" />
+            <element signature="e#17425#17926#0" expanded="false" />
+            <element signature="e#17954#19363#0" expanded="false" />
+            <element signature="e#19374#19468#0" expanded="false" />
+            <element signature="e#19496#21041#0" expanded="false" />
+            <element signature="e#21063#24059#0" expanded="false" />
+            <element signature="e#24085#24469#0" expanded="false" />
+            <element signature="e#24486#25743#0" expanded="false" />
+            <element signature="e#25768#26134#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
