@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "git 命令行 文档"
+title:  "git 命令行文档"
 date:   2018-01-26 18:46:40 +0800
 tags: git
 author: Yiwen
