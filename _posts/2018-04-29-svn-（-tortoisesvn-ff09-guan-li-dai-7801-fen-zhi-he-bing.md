@@ -18,7 +18,7 @@ post-img: "http://p3ethm2oh.bkt.clouddn.com/yiwen/posts/SVN_001.png"
 
 3.From: 选择主干上的 url，To：选择分支上的 url -> 点击 Next >
 
-4.点击 Test merge，查看能否正常合并，如果出现冲突会提示，就逃修改冲突文件。如果正常，点击 Merge
+4.点击 Test merge，查看能否正常合并，如果出现冲突会提示，就要修改冲突文件。如果正常，点击 Merge
 
 5.合并成功。这时候主干上的代码就是最新的提交的分支上的代码了。
 
