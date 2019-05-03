@@ -4,10 +4,10 @@ title:  "VueJS 2.0 的API更新"
 date:   2018-01-26 08:32:40 +0800
 categories: 框架
 tags: Vue
-post-img: "http://oq3m63ave.bkt.clouddn.com/0618/Vuejs1.png"
+post-img: "http://wx4.sinaimg.cn/mw690/e108129aly1g2mw8ynljbj20dt07qglk.jpg"
 author: Yiwen
 ---
-![VueJS](http://oq3m63ave.bkt.clouddn.com/0618/Vuejs1.png)
+![VueJS](https://mmbiz.qpic.cn/mmbiz_png/AlibMLahN88B4qDQGCQ1aicnpwKRhQMwoNHrXKibeic5vicvxO7eKhxNzXAx1d2L0f99uK464d7YQrc3BOeJfPXSwEw/0?wx_fmt=png)
 ##### 1.组件模板
 
 - 必须有一个根元素，包住所有的元素

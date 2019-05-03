@@ -5,7 +5,6 @@ title: 一文博客 - Yiwen | 分类
 ---
 
 <div class="categories-page">
-    <div class="banner-sub" style="background-image: url('http://p3ethm2oh.bkt.clouddn.com/yiwen/banner_05.png')"></div>
     <div class="grid-row">
         <div class="grid-col_6_4 category">
             {% for cate in site.categories %}
@@ -40,9 +39,7 @@ title: 一文博客 - Yiwen | 分类
             {% include categories.html %}
             {% include tag.html %}
             {% include friends.html %}
-            <div class="pic-panel">
-                <img src="http://p3ethm2oh.bkt.clouddn.com/yiwen/pic_01.jpg" alt="PIC">
-            </div>
+            {% include cartList.html %}
         </div>
     </div>
 </div>

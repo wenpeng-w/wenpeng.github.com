@@ -1,10 +1,47 @@
 ---
-layout: default
+<!-- layout: default -->
 link: "/"
 title: 一文博客 - Yiwen
 ---
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+<body>
+    <div id="header" class="header">
+        <div class="grid-row header-wrap">
+            <div class="grid-col_6_6 header-content clx">
+                <div class="logo">
+                    <a href="/" rel="bookmark" style="background-image: url('{{ site.__IMG__ }}/wp4.png')"></a>
+                </div>
+                <div class="nav-wrap">
+                    <div id="nav_btn" class="nav-button">
+                        <span class="nav-btn-icon iconfont icon-nav"></span>
+                    </div>
+                    <divid id="nav_mask" class="nav-mask"></divid>
+                    <div id="nav" class="nav">
+                        <ul id="nav_list" class="nav-list">
+                            {% for nav in site.navs %}
+                            {% if nav.url == page.link %}
+                            <li class="nav-item active">
+                                <a class="nav-name" href="{{ nav.url }}" rel="bookmark"><span class="{{ nav.title }}-icon"></span>{{ nav.name }}</a>
+                            </li>
+                            {% else %}
+                            <li class="nav-item">
+                                <a class="nav-name" href="{{ nav.url }}" rel="bookmark"><span class="{{ nav.title }}-icon"></span>{{ nav.name }}</a>
+                            </li>
+                            {% endif %}
+                            {% endfor %}
+                        </ul>
+                        <div id="nav_btn_close" class="nav-btn-close">
+                            <span class="nav-btn-close-icon">×</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="home-page">
-        <div class="banner-index" style="background-image: url('http://p3ethm2oh.bkt.clouddn.com/yiwen/map.png')"></div>
+        <div class="banner-index" style="background-image: url('http://wx1.sinaimg.cn/mw690/e108129aly1g2lrhxee5mj21c00u07jk.jpg')"></div>
         <div class="grid-row">
             <!-- 文章列表 -->
             <div class="grid-col_6_4 post-wrap">
@@ -80,9 +117,14 @@ title: 一文博客 - Yiwen
                 {% include categories.html %}
                 {% include tag.html %}
                 {% include friends.html %}
-                <div class="pic-panel">
-                    <img src="http://p3ethm2oh.bkt.clouddn.com/yiwen/pic_01.jpg" alt="PIC">
-                </div>
+                {% include cartList.html %}
             </div><!-- /侧边栏 -->
         </div>
     </div>
+    <script type="text/javascript" src="{{ site.__JS__ }}/main.min.js"></script>
+
+    {% include footer.html %}
+
+    {% include backTop.html %}
+</body>
+</html>

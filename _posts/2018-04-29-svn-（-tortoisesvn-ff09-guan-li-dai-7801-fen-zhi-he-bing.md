@@ -4,7 +4,7 @@ date: 2018-04-29 22:44:53 +0800
 title: SVN（TortoiseSVN）管理代码-分支合并
 tags: SVN
 author: 一文
-post-img: "http://p3ethm2oh.bkt.clouddn.com/yiwen/posts/SVN_001.png"
+post-img: "http://wx1.sinaimg.cn/mw690/e108129aly1g2mw8p7fplj206y04g3ym.jpg"
 ---
 为了便于开发团队的协同工作，版本库的有序迭代，主干稳定，分支清晰，创建分支管理就很有必要了。
 主干用来发布稳定的版本，日常的开发则在分支上完成，之后再合并到主干上去。
