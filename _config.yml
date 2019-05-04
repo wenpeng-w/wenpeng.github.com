@@ -43,7 +43,7 @@ github_username: wenpeng-w
 paginate: 6
 paginate_path: page/:num
 permalink: /:year/:month/:day/:title/
-markdown: kramdown
+markdown: MyCustomProcessor
 plugins:
   - jekyll-feed
   - jekyll-paginate
