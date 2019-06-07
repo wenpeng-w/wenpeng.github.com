@@ -17,7 +17,7 @@ pre > code { margin: 0; padding: 0; font-size: 13px; color: #d1d1c9; border: non
 .highlight .p { color: #f8f8f2; }
 .highlight .cm { color: #75715e; }
 .highlight .cp { color: #75715e; }
-.highlight .c1 { color: #75715e; font-style: oblique; }
+.highlight .c1 { color: #75715e; }
 .highlight .cs { color: #75715e; }
 .highlight .ge { font-style: italic; }
 .highlight .gs { font-weight: bold; }
@@ -69,3 +69,6 @@ pre > code { margin: 0; padding: 0; font-size: 13px; color: #d1d1c9; border: non
 .highlight .gu { color: #75715e; }
 .highlight .gd { color: #f92672; }
 .highlight .gi { color: #a6e22e; }
+.highlight code {
+    line-height: 1.6;
+  }
